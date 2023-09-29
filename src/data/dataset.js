@@ -297,4 +297,4 @@ export default
       "funFact": "Pistas de Blue es conocida por su enfoque educativo en el desarrollo cognitivo de los niños.",
       "imageUrl": "URL_de_la_imagen_de_Pistas_de_Blue.jpg"
     }
-  ]
+  ];

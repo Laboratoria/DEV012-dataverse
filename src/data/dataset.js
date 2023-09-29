@@ -1,378 +1,287 @@
-export default [
-  {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+export default 
+// Arroja error cuando tiene const 
+    disneyChannelPrograms = [
+    {
+      "id": "gravity-falls",
+      "name": "Gravity Falls",
+      "genre": "Animación, Comedia, Misterio",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Dos hermanos gemelos pasan el verano con su tío abuelo en un pueblo lleno de misterios sobrenaturales.",
+      "description": "Gravity Falls sigue las aventuras de Dipper y Mabel Pines, dos hermanos gemelos que pasan el verano con su tío abuelo Stan en Gravity Falls, Oregón. A medida que exploran el pueblo, descubren una serie de misterios sobrenaturales y criaturas extrañas. La serie combina comedia, aventura y misterio en una trama emocionante que atrae a niños y adolescentes por igual.",
+      "funFact": "Cada episodio contiene pistas y mensajes ocultos que los fanáticos pueden descifrar para desentrañar más secretos de Gravity Falls.",
+      "imageUrl": "URL_de_la_imagen_de_Gravity_Falls.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
-  },
-  {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    {
+      "id": "kim-possible",
+      "name": "Kim Possible",
+      "genre": "Animación, Acción, Aventura",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Kim Possible es una estudiante que lucha contra el crimen en su tiempo libre.",
+      "description": "Kim Possible es una adolescente común y corriente que lleva una doble vida como una heroína que lucha contra el crimen. Con la ayuda de su mejor amigo Ron Stoppable y su mascota Rufus, Kim se enfrenta a villanos y resuelve misiones peligrosas. La serie combina acción, aventura y comedia en una emocionante historia de superación personal y amistad.",
+      "funFact": "La frase característica de Kim, '¿Qué sitch?' es una abreviatura de '¿Qué situación?' y se convirtió en un lema popular entre los fanáticos.",
+      "imageUrl": "URL_de_la_imagen_de_Kim_Possible.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
-  },
-  {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    {
+      "id": "phineas-ferb",
+      "name": "Phineas y Ferb",
+      "genre": "Animación, Comedia, Musical",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Dos hermanastros tienen aventuras creativas durante las vacaciones de verano.",
+      "description": "Phineas y Ferb es una serie animada que sigue las aventuras de dos hermanastros, Phineas y Ferb, mientras tratan de hacer cada día de sus vacaciones de verano lo más emocionante posible. Con la ayuda de sus amigos, Candace, Perry el Ornitorrinco y más, crean proyectos creativos y a menudo se enfrentan al malvado Dr. Doofenshmirtz. La serie es conocida por su humor inteligente y canciones pegajosas.",
+      "funFact": "Cada episodio incluye una canción original que a menudo se convierte en un éxito entre los fanáticos.",
+      "imageUrl": "URL_de_la_imagen_de_Phineas_y_Ferb.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
-  },
-  {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    {
+      "id": "the-owl-house",
+      "name": "The Owl House",
+      "genre": "Animación, Aventura, Fantasía",
+      "status": "En emisión",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Una adolescente humana se adentra en un mundo mágico habitado por criaturas misteriosas.",
+      "description": "The Owl House sigue la historia de Luz, una adolescente humana que accidentalmente se adentra en el Reino de los Demonios, un mundo mágico lleno de criaturas extrañas y misterios. Allí, se convierte en aprendiz de la bruja Eda y hace nuevos amigos mientras descubre secretos sobre el reino. La serie combina aventura, fantasía y humor en un mundo lleno de magia y sorpresas.",
+      "funFact": "La serie ha sido elogiada por su representación LGBTQ+ al incluir personajes y relaciones queer.",
+      "imageUrl": "URL_de_la_imagen_de_The_Owl_House.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
-  },
-  {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    {
+      "id": "darkwing-duck",
+      "name": "El Pato Darkwing",
+      "genre": "Animación, Acción, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un pato lucha contra el crimen como el superhéroe Darkwing Duck.",
+      "description": "El Pato Darkwing es una serie animada que sigue las aventuras de Drake Mallard, un pato que lleva una doble vida como el superhéroe Darkwing Duck. Junto a su compañero Launchpad McQuack, lucha contra villanos y protege la ciudad de St. Canard. La serie es conocida por su estilo de comedia y acción.",
+      "funFact": "El personaje de Darkwing Duck apareció por primera vez como un personaje recurrente en la serie de televisión de DuckTales antes de obtener su propio programa.",
+      "imageUrl": "URL_de_la_imagen_de_El_Pato_Darkwing.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    {
+      "id": "star-vs-the-forces-of-evil",
+      "name": "Star vs. Las Fuerzas del Mal",
+      "genre": "Animación, Aventura, Fantasía",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Una princesa extraterrestre lucha contra monstruos y magia en la Tierra.",
+      "description": "Star vs. Las Fuerzas del Mal sigue la historia de Star Butterfly, una princesa extraterrestre que es enviada a la Tierra como castigo. Allí, se convierte en amiga de Marco y juntos luchan contra monstruos y criaturas mágicas. La serie combina acción, aventura y elementos mágicos en una emocionante trama.",
+      "funFact": "La serie fue creada por Daron Nefcy, una de las pocas mujeres creadoras de series animadas en la industria.",
+      "imageUrl": "URL_de_la_imagen_de_Star_vs_Las_Fuerzas_del_Mal.jpg"
     }
-  },
-  {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+  ];
+   cartoonNetworkPrograms = [
+    {
+      "id": "laboratorio-de-dexter",
+      "name": "Laboratorio de Dexter",
+      "genre": "Animación, Comedia, Ciencia ficción",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un niño genio realiza experimentos científicos en su laboratorio secreto.",
+      "description": "Laboratorio de Dexter sigue las aventuras de Dexter, un niño genio que realiza experimentos científicos en su laboratorio secreto. A menudo, sus experimentos salen mal debido a las interferencias de su hermana Dee Dee. La serie combina comedia y ciencia ficción en una trama llena de situaciones cómicas y científicas.",
+      "funFact": "Dexter es conocido por su acento ruso y su frase característica, '¡Eso no está bien!'",
+      "imageUrl": "URL_de_la_imagen_de_Laboratorio_de_Dexter.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
-  },
-  {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    {
+      "id": "coraje-el-perro-cobarde",
+      "name": "Coraje el Perro Cobarde",
+      "genre": "Animación, Comedia, Terror",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un perro lucha contra monstruos y situaciones aterradoras para proteger a su familia.",
+      "description": "Coraje el Perro Cobarde sigue las aventuras de Coraje, un perro que vive en una granja con sus dueños Muriel y Eustace. Coraje se enfrenta a monstruos, fantasmas y situaciones aterradoras para proteger a su familia. La serie combina comedia y elementos de terror en una trama única y emocionante.",
+      "funFact": "La serie a menudo presenta referencias a películas de terror clásicas y es conocida por su estilo visual distintivo.",
+      "imageUrl": "URL_de_la_imagen_de_Coraje_el_Perro_Cobarde.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
-  },
-  {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    {
+      "id": "jhony-bravo",
+      "name": "Johnny Bravo",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un hombre musculoso y egocéntrico busca el amor y la fama.",
+      "description": "Johnny Bravo sigue las desventuras de Johnny, un hombre musculoso, egocéntrico y mujeriego que busca el amor y la fama. A menudo, sus intentos por impresionar a las mujeres terminan en situaciones cómicas. La serie es conocida por su humor y estilo de animación caricaturesco.",
+      "funFact": "La voz de Johnny Bravo fue proporcionada por el creador de la serie, Van Partible.",
+      "imageUrl": "URL_de_la_imagen_de_Johnny_Bravo.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
-  },
-  {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    {
+      "id": "ed-edd-y-eddy",
+      "name": "Ed, Edd y Eddy",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Tres amigos intentan ganar dinero vendiendo cosas a sus vecinos.",
+      "description": "Ed, Edd y Eddy sigue las travesuras de tres amigos con el mismo nombre que intentan ganar dinero vendiendo cosas a sus vecinos en el vecindario Peach Creek. Cada uno tiene una personalidad única y juntos se embarcan en aventuras cómicas. La serie es conocida por su estilo de animación caricaturesco y humor slapstick.",
+      "funFact": "Los personajes de Ed, Edd y Eddy no tienen dientes visibles, lo que les da un aspecto distintivo.",
+      "imageUrl": "URL_de_la_imagen_de_Ed_Edd_y_Eddy.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
-  },
-  {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+      "id": "las-chicas-superpoderosas",
+      "name": "Las Chicas Superpoderosas",
+      "genre": "Animación, Acción, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Tres niñas con superpoderes luchan contra villanos y protegen su ciudad.",
+      "description": "Las Chicas Superpoderosas sigue las aventuras de Blossom, Bubbles y Buttercup, tres niñas con superpoderes que luchan contra villanos y protegen su ciudad, Saltadilla. La serie combina acción, comedia y elementos de superhéroes en una trama emocionante y divertida.",
+      "funFact": "La serie fue creada por el animador Craig McCracken y se convirtió en un fenómeno de la cultura pop.",
+      "imageUrl": "URL_de_la_imagen_de_Las_Chicas_Superpoderosas.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    {
+      "id": "ben-10",
+      "name": "Ben 10",
+      "genre": "Animación, Acción, Ciencia ficción",
+      "status": "En emisión",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un niño con un dispositivo alienígena se transforma en diferentes héroes para luchar contra el mal.",
+      "description": "Ben 10 sigue la historia de Ben Tennyson, un niño que encuentra un dispositivo alienígena llamado el Omnitrix que le permite transformarse en diferentes héroes alienígenas para luchar contra el mal. Junto a sus primos Gwen y Max, viaja en una caravana combatiendo amenazas alienígenas. La serie combina acción, ciencia ficción y aventura en un mundo lleno de alienígenas y misterios.",
+      "funFact": "A lo largo de la serie, Ben adquiere más de 70 formas alienígenas diferentes.",
+      "imageUrl": "URL_de_la_imagen_de_Ben_10.jpg"
     }
-  },
-  {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+  ];
+
+  const discoveryKidsPrograms = [
+    {
+      "id": "backyardigans",
+      "name": "Backyardigans",
+      "genre": "Animación, Musical",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Un grupo de amigos tiene aventuras imaginativas en su patio trasero.",
+      "description": "Backyardigans sigue las aventuras de un grupo de amigos, Tyrone, Tasha, Pablo, Uniqua y Austin, mientras tienen aventuras imaginativas en su patio trasero. Cada episodio presenta una historia única y musical con personajes que interpretan canciones pegajosas. La serie fomenta la creatividad y la resolución de problemas.",
+      "funFact": "Cada episodio de Backyardigans es una especie de mini-musical con géneros musicales variados.",
+      "imageUrl": "URL_de_la_imagen_de_Backyardigans.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
-  },
-  {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+      "id": "jorge-el-curioso",
+      "name": "Jorge el Curioso",
+      "genre": "Animación, Aventura",
+      "status": "En emisión",
+      "targetAudience": "Niños",
+      "shortDescription": "Un mono curioso tiene aventuras en la ciudad junto a su amigo Ted.",
+      "description": "Jorge el Curioso sigue las aventuras de Jorge, un mono curioso que tiene una serie de aventuras en la ciudad junto a su amigo Ted. Jorge a menudo se mete en situaciones cómicas debido a su curiosidad. La serie promueve valores como la amistad y la curiosidad por el mundo que nos rodea.",
+      "funFact": "Jorge el Curioso se basa en el personaje principal de la serie de libros para niños creada por H.A. Rey y Margret Rey.",
+      "imageUrl": "URL_de_la_imagen_de_Jorge_el_Curioso.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
-  },
-  {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+      "id": "cubitos",
+      "name": "Cubitos",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Un grupo de amigos tiene aventuras divertidas en su vecindario.",
+      "description": "Cubitos sigue las aventuras de un grupo de amigos, Benny, Etno, Gorgious, Candy y Stereo, que tienen aventuras divertidas en su vecindario. La serie es conocida por su humor y personajes peculiares. Cada episodio presenta situaciones cómicas y extravagantes.",
+      "funFact": "Cubitos es una serie francesa que se convirtió en un éxito internacional.",
+      "imageUrl": "URL_de_la_imagen_de_Cubitos.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
-  },
-  {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    {
+      "id": "pez-astronauta",
+      "name": "Pez Astronauta",
+      "genre": "Animación, Aventura",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Un pez con casco espacial tiene aventuras en el espacio.",
+      "description": "Pez Astronauta sigue las aventuras de un pez con un casco espacial que tiene emocionantes aventuras en el espacio. La serie combina elementos de ciencia ficción y aventura en una trama divertida y educativa. Los episodios exploran el espacio exterior y promueven el interés por la ciencia.",
+      "funFact": "Pez Astronauta es conocida por su enfoque educativo en la exploración espacial.",
+      "imageUrl": "URL_de_la_imagen_de_Pez_Astronauta.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
-  },
-  {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    {
+      "id": "louie",
+      "name": "Louie",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Un pingüino tiene aventuras en el Polo Sur con su grupo de amigos.",
+      "description": "Louie sigue las aventuras de Louie, un pingüino, y su grupo de amigos mientras tienen aventuras en el Polo Sur. La serie es conocida por su humor y personajes entrañables. Cada episodio presenta situaciones cómicas y lecciones de amistad.",
+      "funFact": "Louie es una producción franco-canadiense que se ha transmitido en todo el mundo.",
+      "imageUrl": "URL_de_la_imagen_de_Louie.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    {
+      "id": "martha-habla",
+      "name": "Martha Habla",
+      "genre": "Animación, Aventura",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Un perro parlante tiene aventuras y aprende palabras nuevas.",
+      "description": "Martha Habla sigue las aventuras de Martha, un perro que adquiere la habilidad de hablar después de comer sopa de letras. Martha tiene aventuras emocionantes y aprende nuevas palabras en cada episodio. La serie fomenta la alfabetización y el aprendizaje del lenguaje.",
+      "funFact": "Martha Habla se basa en la serie de libros para niños 'Martha Speaks' de Susan Meddaugh.",
+      "imageUrl": "URL_de_la_imagen_de_Martha_Habla.jpg"
     }
-  },
-  {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+  ];
+  // Aca no genera error. WHY?
+  const nickelodeonPrograms = [
+    {
+      "id": "los-padrinos-magicos",
+      "name": "Los Padrinos Mágicos",
+      "genre": "Animación, Comedia, Fantasía",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un niño tiene hadas mágicas que le conceden deseos, pero a menudo salen mal.",
+      "description": "Los Padrinos Mágicos sigue las aventuras de Timmy Turner, un niño que tiene dos hadas mágicas, Cosmo y Wanda, que le conceden deseos. Sin embargo, los deseos de Timmy a menudo salen mal y causan caos. La serie combina comedia y elementos de fantasía en una trama divertida y alocada.",
+      "funFact": "Los Padrinos Mágicos es conocida por su humor sarcástico y referencias culturales.",
+      "imageUrl": "URL_de_la_imagen_de_Los_Padrinos_Magicos.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
-  },
-  {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    {
+      "id": "catdog",
+      "name": "CatDog",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un gato y un perro comparten el mismo cuerpo y tienen aventuras peculiares.",
+      "description": "CatDog sigue las aventuras de Cat, un gato inteligente, y Dog, un perro entusiasta, que comparten el mismo cuerpo. A pesar de sus diferencias, los hermanos enfrentan situaciones peculiares y cómicas juntos. La serie es conocida por su humor y personajes extravagantes.",
+      "funFact": "La pregunta de cómo Cat y Dog pueden comer y digerir alimentos es un misterio que se mantiene en la serie.",
+      "imageUrl": "URL_de_la_imagen_de_CatDog.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
-  },
-  {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    {
+      "id": "jimmy-neutron",
+      "name": "Jimmy Neutron",
+      "genre": "Animación, Aventura, Ciencia ficción",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un niño genio inventa dispositivos y tiene aventuras científicas.",
+      "description": "Jimmy Neutron sigue las aventuras de Jimmy Neutron, un niño genio que inventa dispositivos y tiene aventuras científicas en su ciudad. Junto a sus amigos, Carl y Sheen, se enfrenta a amenazas alienígenas y situaciones cómicas. La serie fomenta el interés por la ciencia y la tecnología.",
+      "funFact": "La serie tuvo una película titulada 'Jimmy Neutron: El Niño Genio' que se estrenó en 2001.",
+      "imageUrl": "URL_de_la_imagen_de_Jimmy_Neutron.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
-  },
-  {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    {
+      "id": "hey-arnold",
+      "name": "Hey Arnold",
+      "genre": "Animación, Comedia, Drama",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Un niño llamado Arnold vive aventuras en una ciudad grande.",
+      "description": "Hey Arnold sigue las aventuras de Arnold, un niño que vive en una ciudad grande y diversa. Arnold y sus amigos enfrentan desafíos de la vida cotidiana y exploran temas como la amistad, la familia y la empatía. La serie combina comedia y drama en una trama conmovedora.",
+      "funFact": "La serie es conocida por su estilo visual único y personajes memorables.",
+      "imageUrl": "URL_de_la_imagen_de_Hey_Arnold.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
-  },
-  {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    {
+      "id": "rugrats",
+      "name": "Rugrats",
+      "genre": "Animación, Comedia",
+      "status": "Finalizada",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Bebés exploran el mundo desde su perspectiva única.",
+      "description": "Rugrats sigue las aventuras de bebés, incluyendo a Tommy, Chuckie, Phil, Lil y Angelica, mientras exploran el mundo desde su perspectiva única. La serie es conocida por su humor y exploración de la imaginación infantil. Los bebés enfrentan situaciones cómicas y a menudo desafiantes.",
+      "funFact": "La serie tuvo una película titulada 'Rugrats: La Película' que se estrenó en 1998.",
+      "imageUrl": "URL_de_la_imagen_de_Rugrats.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    {
+      "id": "bob-esponja",
+      "name": "Bob Esponja",
+      "genre": "Animación, Comedia",
+      "status": "En emisión",
+      "targetAudience": "Niños y adolescentes",
+      "shortDescription": "Una esponja de mar vive en una piña bajo el mar y trabaja en un restaurante.",
+      "description": "Bob Esponja sigue las aventuras de Bob Esponja, una esponja de mar que vive en una piña bajo el mar en Fondo de Bikini. Bob trabaja en el Krusty Krab, un restaurante de hamburguesas, y junto a su amigo Patricio, enfrenta situaciones cómicas y extravagantes. La serie es conocida por su humor y personajes coloridos.",
+      "funFact": "Bob Esponja se ha convertido en un ícono de la cultura pop y ha inspirado películas y spin-offs.",
+      "imageUrl": "URL_de_la_imagen_de_Bob_Esponja.jpg"
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    {
+      "id": "pistas-de-blue",
+      "name": "Pistas de Blue",
+      "genre": "Animación, Aventura, Misterio",
+      "status": "Finalizada",
+      "targetAudience": "Niños",
+      "shortDescription": "Una perrita y su amigo resuelven misterios con la ayuda de pistas.",
+      "description": "Pistas de Blue sigue las aventuras de Blue, una perrita azul, y su amigo Steve, mientras resuelven misterios con la ayuda de pistas. La serie fomenta el pensamiento lógico y la resolución de problemas en los niños. Cada episodio presenta un nuevo misterio por resolver.",
+      "funFact": "Pistas de Blue es conocida por su enfoque educativo en el desarrollo cognitivo de los niños.",
+      "imageUrl": "URL_de_la_imagen_de_Pistas_de_Blue.jpg"
     }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
-    }
-  }
-];
+  ];

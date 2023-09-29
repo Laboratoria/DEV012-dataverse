@@ -1,0 +1,14 @@
+/* Mediaquery Mobile */
+@media ( max-width: 480px) {
+
+}
+
+/* Mediaquery Tablets*/
+@media ( min-width: 481px) and (max-width:1024px) {
+
+}
+
+/* Mediaquery Desktop*/
+@media (min-width: 1025px) {
+    
+}

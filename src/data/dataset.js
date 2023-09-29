@@ -1,300 +1,391 @@
 export default 
 
+  dataBaseChannels =
   [
-    {
-      "channel":"disney",
-      "id": "gravity-falls",
-      "name": "Gravity Falls",
-      "genre": "Animación, Comedia, Misterio",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Dos hermanos gemelos pasan el verano con su tío abuelo en un pueblo lleno de misterios sobrenaturales.",
-      "description": "Gravity Falls sigue las aventuras de Dipper y Mabel Pines, dos hermanos gemelos que pasan el verano con su tío abuelo Stan en Gravity Falls, Oregón. A medida que exploran el pueblo, descubren una serie de misterios sobrenaturales y criaturas extrañas. La serie combina comedia, aventura y misterio en una trama emocionante que atrae a niños y adolescentes por igual.",
-      "funFact": "Cada episodio contiene pistas y mensajes ocultos que los fanáticos pueden descifrar para desentrañar más secretos de Gravity Falls.",
-      "imageUrl": "URL_de_la_imagen_de_Gravity_Falls.jpg"
-    },
-    {
-      "channel":"disney",
-      "id": "kim-possible",
-      "name": "Kim Possible",
-      "genre": "Animación, Acción, Aventura",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Kim Possible es una estudiante que lucha contra el crimen en su tiempo libre.",
-      "description": "Kim Possible es una adolescente común y corriente que lleva una doble vida como una heroína que lucha contra el crimen. Con la ayuda de su mejor amigo Ron Stoppable y su mascota Rufus, Kim se enfrenta a villanos y resuelve misiones peligrosas. La serie combina acción, aventura y comedia en una emocionante historia de superación personal y amistad.",
-      "funFact": "La frase característica de Kim, '¿Qué sitch?' es una abreviatura de '¿Qué situación?' y se convirtió en un lema popular entre los fanáticos.",
-      "imageUrl": "URL_de_la_imagen_de_Kim_Possible.jpg"
-    },
-    {
-      "channel":"disney",
-      "id": "phineas-ferb",
-      "name": "Phineas y Ferb",
-      "genre": "Animación, Comedia, Musical",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Dos hermanastros tienen aventuras creativas durante las vacaciones de verano.",
-      "description": "Phineas y Ferb es una serie animada que sigue las aventuras de dos hermanastros, Phineas y Ferb, mientras tratan de hacer cada día de sus vacaciones de verano lo más emocionante posible. Con la ayuda de sus amigos, Candace, Perry el Ornitorrinco y más, crean proyectos creativos y a menudo se enfrentan al malvado Dr. Doofenshmirtz. La serie es conocida por su humor inteligente y canciones pegajosas.",
-      "funFact": "Cada episodio incluye una canción original que a menudo se convierte en un éxito entre los fanáticos.",
-      "imageUrl": "URL_de_la_imagen_de_Phineas_y_Ferb.jpg"
-    },
-    {
-      "channel":"disney",
-      "id": "the-owl-house",
-      "name": "The Owl House",
-      "genre": "Animación, Aventura, Fantasía",
-      "status": "En emisión",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Una adolescente humana se adentra en un mundo mágico habitado por criaturas misteriosas.",
-      "description": "The Owl House sigue la historia de Luz, una adolescente humana que accidentalmente se adentra en el Reino de los Demonios, un mundo mágico lleno de criaturas extrañas y misterios. Allí, se convierte en aprendiz de la bruja Eda y hace nuevos amigos mientras descubre secretos sobre el reino. La serie combina aventura, fantasía y humor en un mundo lleno de magia y sorpresas.",
-      "funFact": "La serie ha sido elogiada por su representación LGBTQ+ al incluir personajes y relaciones queer.",
-      "imageUrl": "URL_de_la_imagen_de_The_Owl_House.jpg"
-    },
-    {
-      "channel":"disney",
-      "id": "darkwing-duck",
-      "name": "El Pato Darkwing",
-      "genre": "Animación, Acción, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un pato lucha contra el crimen como el superhéroe Darkwing Duck.",
-      "description": "El Pato Darkwing es una serie animada que sigue las aventuras de Drake Mallard, un pato que lleva una doble vida como el superhéroe Darkwing Duck. Junto a su compañero Launchpad McQuack, lucha contra villanos y protege la ciudad de St. Canard. La serie es conocida por su estilo de comedia y acción.",
-      "funFact": "El personaje de Darkwing Duck apareció por primera vez como un personaje recurrente en la serie de televisión de DuckTales antes de obtener su propio programa.",
-      "imageUrl": "URL_de_la_imagen_de_El_Pato_Darkwing.jpg"
-    },
-    {
-      "channel": "disney",
-      "id": "star-vs-the-forces-of-evil",
-      "name": "Star vs. Las Fuerzas del Mal",
-      "genre": "Animación, Aventura, Fantasía",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Una princesa extraterrestre lucha contra monstruos y magia en la Tierra.",
-      "description": "Star vs. Las Fuerzas del Mal sigue la historia de Star Butterfly, una princesa extraterrestre que es enviada a la Tierra como castigo. Allí, se convierte en amiga de Marco y juntos luchan contra monstruos y criaturas mágicas. La serie combina acción, aventura y elementos mágicos en una emocionante trama.",
-      "funFact": "La serie fue creada por Daron Nefcy, una de las pocas mujeres creadoras de series animadas en la industria.",
-      "imageUrl": "URL_de_la_imagen_de_Star_vs_Las_Fuerzas_del_Mal.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "laboratorio-de-dexter",
-      "name": "Laboratorio de Dexter",
-      "genre": "Animación, Comedia, Ciencia ficción",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un niño genio realiza experimentos científicos en su laboratorio secreto.",
-      "description": "Laboratorio de Dexter sigue las aventuras de Dexter, un niño genio que realiza experimentos científicos en su laboratorio secreto. A menudo, sus experimentos salen mal debido a las interferencias de su hermana Dee Dee. La serie combina comedia y ciencia ficción en una trama llena de situaciones cómicas y científicas.",
-      "funFact": "Dexter es conocido por su acento ruso y su frase característica, '¡Eso no está bien!'",
-      "imageUrl": "URL_de_la_imagen_de_Laboratorio_de_Dexter.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "coraje-el-perro-cobarde",
-      "name": "Coraje el Perro Cobarde",
-      "genre": "Animación, Comedia, Terror",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un perro lucha contra monstruos y situaciones aterradoras para proteger a su familia.",
-      "description": "Coraje el Perro Cobarde sigue las aventuras de Coraje, un perro que vive en una granja con sus dueños Muriel y Eustace. Coraje se enfrenta a monstruos, fantasmas y situaciones aterradoras para proteger a su familia. La serie combina comedia y elementos de terror en una trama única y emocionante.",
-      "funFact": "La serie a menudo presenta referencias a películas de terror clásicas y es conocida por su estilo visual distintivo.",
-      "imageUrl": "URL_de_la_imagen_de_Coraje_el_Perro_Cobarde.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "jhony-bravo",
-      "name": "Johnny Bravo",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un hombre musculoso y egocéntrico busca el amor y la fama.",
-      "description": "Johnny Bravo sigue las desventuras de Johnny, un hombre musculoso, egocéntrico y mujeriego que busca el amor y la fama. A menudo, sus intentos por impresionar a las mujeres terminan en situaciones cómicas. La serie es conocida por su humor y estilo de animación caricaturesco.",
-      "funFact": "La voz de Johnny Bravo fue proporcionada por el creador de la serie, Van Partible.",
-      "imageUrl": "URL_de_la_imagen_de_Johnny_Bravo.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "ed-edd-y-eddy",
-      "name": "Ed, Edd y Eddy",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Tres amigos intentan ganar dinero vendiendo cosas a sus vecinos.",
-      "description": "Ed, Edd y Eddy sigue las travesuras de tres amigos con el mismo nombre que intentan ganar dinero vendiendo cosas a sus vecinos en el vecindario Peach Creek. Cada uno tiene una personalidad única y juntos se embarcan en aventuras cómicas. La serie es conocida por su estilo de animación caricaturesco y humor slapstick.",
-      "funFact": "Los personajes de Ed, Edd y Eddy no tienen dientes visibles, lo que les da un aspecto distintivo.",
-      "imageUrl": "URL_de_la_imagen_de_Ed_Edd_y_Eddy.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "las-chicas-superpoderosas",
-      "name": "Las Chicas Superpoderosas",
-      "genre": "Animación, Acción, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Tres niñas con superpoderes luchan contra villanos y protegen su ciudad.",
-      "description": "Las Chicas Superpoderosas sigue las aventuras de Blossom, Bubbles y Buttercup, tres niñas con superpoderes que luchan contra villanos y protegen su ciudad, Saltadilla. La serie combina acción, comedia y elementos de superhéroes en una trama emocionante y divertida.",
-      "funFact": "La serie fue creada por el animador Craig McCracken y se convirtió en un fenómeno de la cultura pop.",
-      "imageUrl": "URL_de_la_imagen_de_Las_Chicas_Superpoderosas.jpg"
-    },
-    {
-      "channel": "cartoonNetwork",
-      "id": "ben-10",
-      "name": "Ben 10",
-      "genre": "Animación, Acción, Ciencia ficción",
-      "status": "En emisión",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un niño con un dispositivo alienígena se transforma en diferentes héroes para luchar contra el mal.",
-      "description": "Ben 10 sigue la historia de Ben Tennyson, un niño que encuentra un dispositivo alienígena llamado el Omnitrix que le permite transformarse en diferentes héroes alienígenas para luchar contra el mal. Junto a sus primos Gwen y Max, viaja en una caravana combatiendo amenazas alienígenas. La serie combina acción, ciencia ficción y aventura en un mundo lleno de alienígenas y misterios.",
-      "funFact": "A lo largo de la serie, Ben adquiere más de 70 formas alienígenas diferentes.",
-      "imageUrl": "URL_de_la_imagen_de_Ben_10.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "backyardigans",
-      "name": "Backyardigans",
-      "genre": "Animación, Musical",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Un grupo de amigos tiene aventuras imaginativas en su patio trasero.",
-      "description": "Backyardigans sigue las aventuras de un grupo de amigos, Tyrone, Tasha, Pablo, Uniqua y Austin, mientras tienen aventuras imaginativas en su patio trasero. Cada episodio presenta una historia única y musical con personajes que interpretan canciones pegajosas. La serie fomenta la creatividad y la resolución de problemas.",
-      "funFact": "Cada episodio de Backyardigans es una especie de mini-musical con géneros musicales variados.",
-      "imageUrl": "URL_de_la_imagen_de_Backyardigans.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "jorge-el-curioso",
-      "name": "Jorge el Curioso",
-      "genre": "Animación, Aventura",
-      "status": "En emisión",
-      "targetAudience": "Niños",
-      "shortDescription": "Un mono curioso tiene aventuras en la ciudad junto a su amigo Ted.",
-      "description": "Jorge el Curioso sigue las aventuras de Jorge, un mono curioso que tiene una serie de aventuras en la ciudad junto a su amigo Ted. Jorge a menudo se mete en situaciones cómicas debido a su curiosidad. La serie promueve valores como la amistad y la curiosidad por el mundo que nos rodea.",
-      "funFact": "Jorge el Curioso se basa en el personaje principal de la serie de libros para niños creada por H.A. Rey y Margret Rey.",
-      "imageUrl": "URL_de_la_imagen_de_Jorge_el_Curioso.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "cubitos",
-      "name": "Cubitos",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Un grupo de amigos tiene aventuras divertidas en su vecindario.",
-      "description": "Cubitos sigue las aventuras de un grupo de amigos, Benny, Etno, Gorgious, Candy y Stereo, que tienen aventuras divertidas en su vecindario. La serie es conocida por su humor y personajes peculiares. Cada episodio presenta situaciones cómicas y extravagantes.",
-      "funFact": "Cubitos es una serie francesa que se convirtió en un éxito internacional.",
-      "imageUrl": "URL_de_la_imagen_de_Cubitos.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "pez-astronauta",
-      "name": "Pez Astronauta",
-      "genre": "Animación, Aventura",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Un pez con casco espacial tiene aventuras en el espacio.",
-      "description": "Pez Astronauta sigue las aventuras de un pez con un casco espacial que tiene emocionantes aventuras en el espacio. La serie combina elementos de ciencia ficción y aventura en una trama divertida y educativa. Los episodios exploran el espacio exterior y promueven el interés por la ciencia.",
-      "funFact": "Pez Astronauta es conocida por su enfoque educativo en la exploración espacial.",
-      "imageUrl": "URL_de_la_imagen_de_Pez_Astronauta.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "louie",
-      "name": "Louie",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Un pingüino tiene aventuras en el Polo Sur con su grupo de amigos.",
-      "description": "Louie sigue las aventuras de Louie, un pingüino, y su grupo de amigos mientras tienen aventuras en el Polo Sur. La serie es conocida por su humor y personajes entrañables. Cada episodio presenta situaciones cómicas y lecciones de amistad.",
-      "funFact": "Louie es una producción franco-canadiense que se ha transmitido en todo el mundo.",
-      "imageUrl": "URL_de_la_imagen_de_Louie.jpg"
-    },
-    {
-      "channel": "discoveryKids",
-      "id": "martha-habla",
-      "name": "Martha Habla",
-      "genre": "Animación, Aventura",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Un perro parlante tiene aventuras y aprende palabras nuevas.",
-      "description": "Martha Habla sigue las aventuras de Martha, un perro que adquiere la habilidad de hablar después de comer sopa de letras. Martha tiene aventuras emocionantes y aprende nuevas palabras en cada episodio. La serie fomenta la alfabetización y el aprendizaje del lenguaje.",
-      "funFact": "Martha Habla se basa en la serie de libros para niños 'Martha Speaks' de Susan Meddaugh.",
-      "imageUrl": "URL_de_la_imagen_de_Martha_Habla.jpg"
-    },
-    {
-      "channel": "nickelodeon",
-      "id": "los-padrinos-magicos",
-      "name": "Los Padrinos Mágicos",
-      "genre": "Animación, Comedia, Fantasía",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un niño tiene hadas mágicas que le conceden deseos, pero a menudo salen mal.",
-      "description": "Los Padrinos Mágicos sigue las aventuras de Timmy Turner, un niño que tiene dos hadas mágicas, Cosmo y Wanda, que le conceden deseos. Sin embargo, los deseos de Timmy a menudo salen mal y causan caos. La serie combina comedia y elementos de fantasía en una trama divertida y alocada.",
-      "funFact": "Los Padrinos Mágicos es conocida por su humor sarcástico y referencias culturales.",
-      "imageUrl": "URL_de_la_imagen_de_Los_Padrinos_Magicos.jpg"
-    },
-    {
-      "channel": "nickelodeon",
-      "id": "catdog",
-      "name": "CatDog",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un gato y un perro comparten el mismo cuerpo y tienen aventuras peculiares.",
-      "description": "CatDog sigue las aventuras de Cat, un gato inteligente, y Dog, un perro entusiasta, que comparten el mismo cuerpo. A pesar de sus diferencias, los hermanos enfrentan situaciones peculiares y cómicas juntos. La serie es conocida por su humor y personajes extravagantes.",
-      "funFact": "La pregunta de cómo Cat y Dog pueden comer y digerir alimentos es un misterio que se mantiene en la serie.",
-      "imageUrl": "URL_de_la_imagen_de_CatDog.jpg"
-    },
-    {
-      "channel": "nickelodeon",
-      "id": "jimmy-neutron",
-      "name": "Jimmy Neutron",
-      "genre": "Animación, Aventura, Ciencia ficción",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un niño genio inventa dispositivos y tiene aventuras científicas.",
-      "description": "Jimmy Neutron sigue las aventuras de Jimmy Neutron, un niño genio que inventa dispositivos y tiene aventuras científicas en su ciudad. Junto a sus amigos, Carl y Sheen, se enfrenta a amenazas alienígenas y situaciones cómicas. La serie fomenta el interés por la ciencia y la tecnología.",
-      "funFact": "La serie tuvo una película titulada 'Jimmy Neutron: El Niño Genio' que se estrenó en 2001.",
-      "imageUrl": "URL_de_la_imagen_de_Jimmy_Neutron.jpg"
-    },
-    {"channel": "nickelodeon",
-      "id": "hey-arnold",
-      "name": "Hey Arnold",
-      "genre": "Animación, Comedia, Drama",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Un niño llamado Arnold vive aventuras en una ciudad grande.",
-      "description": "Hey Arnold sigue las aventuras de Arnold, un niño que vive en una ciudad grande y diversa. Arnold y sus amigos enfrentan desafíos de la vida cotidiana y exploran temas como la amistad, la familia y la empatía. La serie combina comedia y drama en una trama conmovedora.",
-      "funFact": "La serie es conocida por su estilo visual único y personajes memorables.",
-      "imageUrl": "URL_de_la_imagen_de_Hey_Arnold.jpg"
-    },
-    {"channel": "nickelodeon",
-      "id": "rugrats",
-      "name": "Rugrats",
-      "genre": "Animación, Comedia",
-      "status": "Finalizada",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Bebés exploran el mundo desde su perspectiva única.",
-      "description": "Rugrats sigue las aventuras de bebés, incluyendo a Tommy, Chuckie, Phil, Lil y Angelica, mientras exploran el mundo desde su perspectiva única. La serie es conocida por su humor y exploración de la imaginación infantil. Los bebés enfrentan situaciones cómicas y a menudo desafiantes.",
-      "funFact": "La serie tuvo una película titulada 'Rugrats: La Película' que se estrenó en 1998.",
-      "imageUrl": "URL_de_la_imagen_de_Rugrats.jpg"
-    },
-    {"channel": "nickelodeon",
-      "id": "bob-esponja",
-      "name": "Bob Esponja",
-      "genre": "Animación, Comedia",
-      "status": "En emisión",
-      "targetAudience": "Niños y adolescentes",
-      "shortDescription": "Una esponja de mar vive en una piña bajo el mar y trabaja en un restaurante.",
-      "description": "Bob Esponja sigue las aventuras de Bob Esponja, una esponja de mar que vive en una piña bajo el mar en Fondo de Bikini. Bob trabaja en el Krusty Krab, un restaurante de hamburguesas, y junto a su amigo Patricio, enfrenta situaciones cómicas y extravagantes. La serie es conocida por su humor y personajes coloridos.",
-      "funFact": "Bob Esponja se ha convertido en un ícono de la cultura pop y ha inspirado películas y spin-offs.",
-      "imageUrl": "URL_de_la_imagen_de_Bob_Esponja.jpg"
-    },
-    {
-      "id": "pistas-de-blue",
-      "name": "Pistas de Blue",
-      "genre": "Animación, Aventura, Misterio",
-      "status": "Finalizada",
-      "targetAudience": "Niños",
-      "shortDescription": "Una perrita y su amigo resuelven misterios con la ayuda de pistas.",
-      "description": "Pistas de Blue sigue las aventuras de Blue, una perrita azul, y su amigo Steve, mientras resuelven misterios con la ayuda de pistas. La serie fomenta el pensamiento lógico y la resolución de problemas en los niños. Cada episodio presenta un nuevo misterio por resolver.",
-      "funFact": "Pistas de Blue es conocida por su enfoque educativo en el desarrollo cognitivo de los niños.",
-      "imageUrl": "URL_de_la_imagen_de_Pistas_de_Blue.jpg"
-    }
-  ];
+      {
+        "id": "gravity-falls",
+        "channel": "Disney Channel",
+        "name": "Gravity Falls",
+        "genre": "Animación, Aventura, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Dos hermanos gemelos pasan el verano con su tío en Gravity Falls, donde ocurren eventos extraños.",
+        "description": "Gravity Falls sigue las aventuras de Dipper y Mabel Pines, dos hermanos gemelos que pasan el verano con su tío Stan en Gravity Falls, Oregón. Pronto descubren que la ciudad está llena de eventos paranormales y misterios. La serie combina comedia y aventura en un entorno misterioso.",
+        "imageUrl": "https://th.bing.com/th/id/R.545b638d37091934cb71c0d4b37a7baf?rik=VjBRIPe7a33oAA&riu=http%3a%2f%2fimg4.wikia.nocookie.net%2f__cb20140616204443%2fdisney%2fimages%2f1%2f11%2fGravity_Falls_Season_2_Promo.jpg&ehk=vf0VUsLgzRQKZfe1tJxG2euysrwoAWSbvqGqqm9xLtQ%3d&risl=&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "15 de junio de 2012",
+          "capituloConMayorRating": "El episodio 'Not What He Seems' es uno de los más destacados de la serie.",
+          "datoCurioso": "Gravity Falls ha desarrollado una base de fanáticos apasionados debido a su narrativa intrigante y personajes carismáticos."
+        }
+      },
+      {
+        "id": "kim-possible",
+        "channel": "Disney Channel",
+        "name": "Kim Possible",
+        "genre": "Animación, Acción, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Una estudiante se convierte en heroína y lucha contra villanos con la ayuda de su amigo.",
+        "description": "Kim Possible sigue las aventuras de Kim Possible, una estudiante que se convierte en heroína y lucha contra villanos con la ayuda de su amigo Ron Stoppable y su mascota Rufus. Kim enfrenta desafíos escolares y amenazas globales. La serie combina acción, comedia y temas de empoderamiento.",
+        "imageUrl": "https://th.bing.com/th/id/R.ef8105dda22f0f9c37692a4c86ab2822?rik=rY6J5tduadpJ9A&riu=http%3a%2f%2fwww.wikihow.com%2fimages%2fd%2fdd%2fKimPossible-Color-Step-11.jpg&ehk=KF7s%2bEtrL7xmo2TmV3cCVre3W9VRYY5FQ5h%2b9nmJ87o%3d&risl=&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "7 de junio de 2002",
+          "capituloConMayorRating": "El episodio 'So the Drama' es una película especial que se considera uno de los mejores de la serie.",
+          "datoCurioso": "Kim Possible ha inspirado videojuegos y una película de acción en vivo."
+        }
+      },
+      {
+        "id": "phineas-y-ferb",
+        "channel": "Disney Channel",
+        "name": "Phineas y Ferb",
+        "genre": "Animación, Comedia, Música",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Dos hermanos tienen aventuras épicas durante sus vacaciones de verano.",
+        "description": "Phineas y Ferb sigue las aventuras de dos hermanos, Phineas y Ferb, mientras tienen aventuras épicas durante sus vacaciones de verano. Phineas tiene ideas creativas y Ferb es el hombre de acción, mientras que su hermana Candace intenta atraparlos. La serie presenta música pegajosa y comedia.",
+        "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-7119-1yi45ai_a4edc08e.jpeg?region=0,0,1000,1409",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "17 de agosto de 2007",
+          "capituloConMayorRating": "El episodio 'Phineas and Ferb: Summer Belongs to You!' es uno de los más populares de la serie.",
+          "datoCurioso": "Phineas y Ferb ha ganado varios premios, incluyendo Emmys."
+        }
+      },
+      {
+        "id": "the-owl-house",
+        "channel": "Disney Channel",
+        "name": "The Owl House",
+        "genre": "Animación, Aventura, Fantasía",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Una adolescente encuentra un mundo mágico y se convierte en aprendiz de bruja.",
+        "description": "The Owl House sigue las aventuras de Luz, una adolescente que encuentra un mundo mágico y se convierte en aprendiz de bruja en la Casa Búho. Luz enfrenta criaturas mágicas, misterios oscuros y descubre su propio poder. La serie combina aventura y fantasía en un mundo único.",
+        "imageUrl": "https://mickeyblog.com/wp-content/uploads/2020/02/owlhouse.jpg",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "10 de enero de 2020",
+          "capituloConMayorRating": "El episodio 'Young Blood, Old Souls' es uno de los más destacados de la serie.",
+          "datoCurioso": "The Owl House ha ganado seguidores por su narrativa oscura y personajes complejos."
+        }
+      },
+      {
+        "id": "el-pato-darkwing",
+        "channel": "Disney Channel",
+        "name": "El Pato Darkwing",
+        "genre": "Animación, Acción, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un pato lucha contra el crimen como el superhéroe Darkwing Duck.",
+        "description": "El Pato Darkwing sigue las aventuras de Darkwing Duck, un pato que lucha contra el crimen como el superhéroe Darkwing Duck. Junto a su compañero Launchpad, Darkwing se enfrenta a villanos y protege la ciudad de St. Canard. La serie combina acción y comedia.",
+        "imageUrl": "https://www.themoviedb.org/t/p/original/pQT955sw540PG0SOzOCfhIwznJh.jpg",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "6 de abril de 1991",
+          "capituloConMayorRating": "El episodio 'Negaduck' es uno de los más recordados de la serie.",
+          "datoCurioso": "El Pato Darkwing es una parodia de superhéroes clásicos."
+        }
+      },
+      {
+        "id": "star-vs-las-fuerzas-del-mal",
+        "channel": "Disney Channel",
+        "name": "Star vs. Las Fuerzas del Mal",
+        "genre": "Animación, Aventura, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Una princesa alienígena lucha contra las fuerzas del mal en la Tierra.",
+        "description": "Star vs. Las Fuerzas del Mal sigue las aventuras de Star Butterfly, una princesa alienígena que lucha contra las fuerzas del mal en la Tierra. Con la ayuda de su amigo Marco, Star enfrenta monstruos y desafíos mágicos. La serie combina comedia y aventura.",
+        "imageUrl": "https://image.tmdb.org/t/p/original/idcYGYscJOYuZAPChsv72zr3Qh5.jpg",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "18 de enero de 2015",
+          "capituloConMayorRating": "El episodio 'Bon Bon the Birthday Clown' es uno de los más destacados de la serie.",
+          "datoCurioso": "Star vs. Las Fuerzas del Mal tiene una base de fanáticos dedicada."
+        }
+      },
+      {
+        "id": "laboratorio-de-dexter",
+        "channel": "Cartoon Network",
+        "name": "Laboratorio de Dexter",
+        "genre": "Animación, Comedia, Ciencia ficción",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un niño genio realiza experimentos en su laboratorio secreto.",
+        "description": "Laboratorio de Dexter sigue las aventuras de Dexter, un niño genio que realiza experimentos en su laboratorio secreto. Dexter intenta mantener su laboratorio en secreto, pero su hermana Dee Dee siempre causa problemas. La serie combina comedia y ciencia ficción.",
+        "imageUrl": "https://th.bing.com/th/id/R.e818602fc0bc78e23e76c05d9352b3fd?rik=KjP%2bHC9AXPxE%2bA&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "28 de abril de 1996",
+          "capituloConMayorRating": "El episodio 'El viaje de Dexter' es uno de los más recordados de la serie.",
+          "datoCurioso": "Laboratorio de Dexter ganó varios premios, incluyendo Emmys."
+        }
+      },
+      {
+        "id": "coraje-el-perro-cobarde",
+        "channel": "Cartoon Network",
+        "name": "Coraje, el Perro Cobarde",
+        "genre": "Animación, Comedia, Terror",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un perro asustadizo enfrenta situaciones aterradoras para proteger a sus dueños.",
+        "description": "Coraje, el Perro Cobarde sigue las aventuras de Coraje, un perro asustadizo que enfrenta situaciones aterradoras para proteger a sus dueños, Muriel y Justo. La serie combina comedia y terror en un estilo único y surrealista.",
+        "imageUrl": "https://vignette.wikia.nocookie.net/doblaje/images/a/ac/CorajeElPerroCobarde.jpg/revision/latest?cb=20200721163946&path-prefix=es",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "12 de noviembre de 1999",
+          "capituloConMayorRating": "El episodio 'Freaky Fred' es uno de los más inolvidables de la serie.",
+          "datoCurioso": "Coraje, el Perro Cobarde es conocida por su atmósfera espeluznante y humor negro."
+        }
+      },
+      {
+        "id": "jhony-bravo",
+        "channel": "Cartoon Network",
+        "name": "Johnny Bravo",
+        "genre": "Animación, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un hombre musculoso y seguro de sí mismo busca el amor y la fama.",
+        "description": "Johnny Bravo sigue las desventuras de Johnny, un hombre musculoso y seguro de sí mismo que busca el amor y la fama, pero a menudo termina en situaciones cómicas. La serie es conocida por su humor exagerado y referencias a la cultura pop.",
+        "imageUrl": "https://images.assettype.com/afaqs/2020-09/a662eefb-75db-4f14-9670-1b5bafb00ea4/9e0445eff4ecefcbf590980204db14cd.jpg?auto=format%2Ccompress&w=1200",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "14 de julio de 1997",
+          "capituloConMayorRating": "El episodio 'Bravo Dooby-Doo' es un crossover con Scooby-Doo y es muy popular.",
+          "datoCurioso": "Johnny Bravo se ha convertido en un ícono de la cultura pop."
+        }
+      },
+      {
+        "id": "ed-edd-y-eddy",
+        "channel": "Cartoon Network",
+        "name": "Ed, Edd y Eddy",
+        "genre": "Animación, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Tres amigos buscan hacer travesuras para comprar golosinas.",
+        "description": "Ed, Edd y Eddy sigue las travesuras de tres amigos, cada uno con el nombre Ed, que buscan hacer travesuras y ganar dinero para comprar golosinas. La serie es conocida por su comedia física y personajes excéntricos.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.2KlOvxKeZFkCUY5fFoCKDgAAAA?pid=ImgDet&rs=1",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "4 de enero de 1999",
+          "capituloConMayorRating": "El episodio 'Una Ed navidad' es un especial navideño muy querido por los fanáticos.",
+          "datoCurioso": "Ed, Edd y Eddy ha ganado varios premios y es un clásico de Cartoon Network."
+        }
+      },
+      {
+        "id": "las-chicas-superpoderosas",
+        "channel": "Cartoon Network",
+        "name": "Las Chicas Superpoderosas",
+        "genre": "Animación, Acción, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Tres niñas con superpoderes luchan contra villanos y protegen la ciudad de Saltadilla.",
+        "description": "Las Chicas Superpoderosas sigue las aventuras de tres niñas con superpoderes, Burbuja, Bombón y Bellota, mientras luchan contra villanos y protegen la ciudad de Saltadilla. La serie combina acción, comedia y temas de empoderamiento.",
+        "imageUrl": "https://i1.wp.com/thefanboyseo.com/wp-content/uploads/2016/03/PPG-Key-Art.jpg?resize=864%2C1296",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "18 de noviembre de 1998",
+          "capituloConMayorRating": "El episodio 'Mime for a Change' es uno de los más recordados de la serie.",
+          "datoCurioso": "Las Chicas Superpoderosas tuvieron un reinicio en 2016 con un nuevo estilo de animación."
+        }
+      },
+      {
+        "id": "ben-10",
+        "channel": "Cartoon Network",
+        "name": "Ben 10",
+        "genre": "Animación, Acción, Ciencia ficción",
+        "status": "En curso",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un niño puede transformarse en diferentes héroes alienígenas para combatir el mal.",
+        "description": "Ben 10 sigue las aventuras de Ben Tennyson, un niño que puede transformarse en diferentes héroes alienígenas gracias a un dispositivo especial llamado el Omnitrix. Ben lucha contra villanos y amenazas alienígenas. La serie combina acción y ciencia ficción.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.5irifEhlUJignqKyd9J_fwHaLH?pid=ImgDet&rs=1",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "27 de diciembre de 2005",
+          "capituloConMayorRating": "El episodio 'Omniverse: A New Beginning' es un punto de partida importante en la serie.",
+          "datoCurioso": "Ben 10 ha tenido varias series y reinicios a lo largo de los años."
+        }
+      },
+      {
+        "id": "backyardigans",
+        "channel": "Nickelodeon",
+        "name": "Backyardigans",
+        "genre": "Animación, Musical, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Un grupo de amigos tienen aventuras musicales en su patio trasero.",
+        "description": "Backyardigans sigue las aventuras de un grupo de amigos, Uniqua, Pablo, Tyrone, Tasha y Austin, mientras tienen aventuras musicales en su patio trasero. Cada episodio presenta un género musical diferente. La serie combina música y aventuras imaginativas.",
+        "imageUrl": "https://th.bing.com/th/id/R.8407000997b563a311f57a5e42eea332?rik=Til3j%2bwWwaRwZw&riu=http%3a%2f%2fimg3.wikia.nocookie.net%2f__cb20141104180004%2fthebackyardigansencyclopedia%2fimages%2f5%2f5c%2fOrigina!.jpg&ehk=13f2EJx5Wj0sLFMxtAHwRZusicpQ3kJLDkJOZh2A%2fnI%3d&risl=1&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "11 de octubre de 2004",
+          "capituloConMayorRating": "Varios episodios musicales son populares entre los niños y las familias.",
+          "datoCurioso": "Backyardigans fomenta la creatividad y la imaginación en los niños."
+        }
+      },
+      {
+        "id": "jorge-el-curioso",
+        "channel": "Nickelodeon",
+        "name": "Jorge el Curioso",
+        "genre": "Animación, Aventura, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Un curioso mono y su amigo exploran el mundo y resuelven problemas.",
+        "description": "Jorge el Curioso sigue las aventuras de Jorge, un curioso mono, y su amigo Ted mientras exploran el mundo y resuelven problemas. Basada en los libros infantiles, la serie fomenta la curiosidad y el aprendizaje en los niños.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.0SjKTxHTqH3FJInAAeCg8QHaKj?pid=ImgDet&rs=1",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "4 de septiembre de 2006",
+          "capituloConMayorRating": "Varios episodios de Jorge el Curioso son apreciados por su enfoque educativo.",
+          "datoCurioso": "La serie promueve la curiosidad y el amor por el aprendizaje en los niños."
+        }
+      },
+      {
+        "id": "cubitos",
+        "channel": "Nickelodeon",
+        "name": "Cubitos",
+        "genre": "Animación, Comedia, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Tres amigos y sus mascotas viven aventuras en un mundo prehistórico.",
+        "description": "Cubitos sigue las aventuras de tres amigos, Rocky, Bill y Tiny, junto con sus mascotas, mientras viven emocionantes aventuras en un mundo prehistórico. La serie combina comedia y exploración en un entorno único.",
+        "imageUrl": "https://artworks.thetvdb.com/banners/posters/286169-1.jpg",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "18 de septiembre de 2009",
+          "capituloConMayorRating": "Varios episodios de Cubitos son apreciados por su humor y diversión para niños.",
+          "datoCurioso": "La serie fomenta el amor por la naturaleza y la aventura en los niños."
+        }
+      },
+      {
+        "id": "pez-astronauta",
+        "channel": "Nickelodeon",
+        "name": "Pez Astronauta",
+        "genre": "Animación, Ciencia ficción, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Un pez viaja por el espacio en una aventura intergaláctica.",
+        "description": "Pez Astronauta sigue las aventuras de un pez llamado Finley mientras viaja por el espacio en una aventura intergaláctica. La serie combina ciencia ficción y exploración espacial de manera divertida.",
+        "imageUrl": "https://vignette.wikia.nocookie.net/doblaje/images/b/ba/Peztronauta.jpg/revision/latest?cb=20130710002334&path-prefix=es",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "23 de mayo de 2014",
+          "capituloConMayorRating": "La serie en su conjunto ha sido apreciada por su enfoque en la exploración espacial.",
+          "datoCurioso": "Pez Astronauta es una serie divertida para niños que fomenta el interés por el espacio."
+        }
+      },
+      {
+        "id": "louie",
+        "channel": "Nickelodeon",
+        "name": "Louie",
+        "genre": "Animación, Comedia, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Un pingüino y sus amigos viven divertidas aventuras en la Antártida.",
+        "description": "Louie sigue las aventuras de Louie, un pingüino, y sus amigos mientras viven divertidas aventuras en la Antártida. La serie combina comedia y exploración en un entorno polar.",
+        "imageUrl": "https://lh6.ggpht.com/rS1yYXi5vpQmsVmfkXgo7v3zvMZzmzD9va4JfoBAlKvIPd10HE8OqIOwOCuXSRQvBIk",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "14 de septiembre de 2016",
+          "capituloConMayorRating": "Varios episodios de Louie son apreciados por su humor y entretenimiento para niños.",
+          "datoCurioso": "Louie es una serie animada que combina diversión y aprendizaje sobre la vida en la Antártida."
+        }
+      },
+      {
+        "id": "martha-habla",
+        "channel": "Nickelodeon",
+        "name": "Martha Habla",
+        "genre": "Animación, Comedia, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Un perro adquiere la habilidad de hablar y tiene aventuras con su familia.",
+        "description": "Martha Habla sigue las aventuras de Martha, un perro que adquiere la habilidad de hablar después de comer sopa de letras. Martha tiene aventuras con su familia y amigos mientras explora el mundo desde su perspectiva canina. La serie combina comedia y aprendizaje.",
+        "imageUrl": "https://th.bing.com/th/id/R.5ca38b8a7f5488b33e64def8eee60006?rik=AIECnZTux7eZ5A&riu=http%3a%2f%2f3.bp.blogspot.com%2f-RFySF5dyv3w%2fTgh7e65mRlI%2fAAAAAAAAAec%2f2gaBaaR5_ZU%2fs1600%2fMartha%2bspeaks.jpg&ehk=6Uf4gzICpg%2f2zAd26uvb6Iltc%2bqojnE31sYDfy2yz00%3d&risl=&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "1 de septiembre de 2008",
+          "capituloConMayorRating": "Varios episodios de Martha Habla son apreciados por su enfoque educativo y divertido.",
+          "datoCurioso": "La serie promueve el amor por los animales y el aprendizaje en los niños."
+        }
+      },
+      {
+        "id": "catdog",
+        "channel": "Nickelodeon",
+        "name": "CatDog",
+        "genre": "Animación, Comedia, Surrealismo",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un gato y un perro siameses viven juntos a pesar de sus diferencias.",
+        "description": "CatDog sigue las aventuras de Cat, un gato, y Dog, un perro, que son siameses y comparten el mismo cuerpo. A pesar de sus diferencias, viven juntos y enfrentan situaciones cómicas en la ciudad de Nearburg. La serie es conocida por su estilo surrealista.",
+        "imageUrl": "https://th.bing.com/th/id/R.1f1ad4c3d7e07f78a81b3a0174f82e28?rik=pUQZW%2b33lA86YQ&riu=http%3a%2f%2fimage.tmdb.org%2ft%2fp%2foriginal%2ficuyGMtxghyfZIRjlALQdOKS58D.jpg&ehk=sTekSq%2fdjCjZf2vtYGIljRGFaA1pJ6VHXYNZV1vzMUY%3d&risl=&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "4 de abril de 1998",
+          "capituloConMayorRating": "La serie en su conjunto es apreciada por su humor absurdo y sus personajes peculiares.",
+          "datoCurioso": "CatDog es una serie única que ha dejado una impresión duradera en la cultura pop."
+        }
+      },
+      {
+        "id": "jimmy-neutron",
+        "channel": "Nickelodeon",
+        "name": "Jimmy Neutron",
+        "genre": "Animación, Ciencia ficción, Comedia",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un niño genio inventa dispositivos locos y enfrenta desafíos científicos.",
+        "description": "Jimmy Neutron sigue las aventuras de Jimmy, un niño genio que inventa dispositivos locos y enfrenta desafíos científicos en su ciudad. Jimmy es acompañado por sus amigos y su robot Goddard. La serie combina ciencia ficción y comedia.",
+        "imageUrl": "https://mediacdn.aent-m.com/prod-img/500/12/3999112-2736870.jpg?ae=2502050151",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "20 de julio de 2002",
+          "capituloConMayorRating": "El episodio 'Win, Lose and Kaboom!' es uno de los más destacados de la serie.",
+          "datoCurioso": "Jimmy Neutron fue una serie exitosa que también tuvo una película y videojuegos."
+        }
+      },
+      {
+        "id": "hey-arnold",
+        "channel": "Nickelodeon",
+        "name": "Hey Arnold",
+        "genre": "Animación, Comedia, Drama",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un niño de la ciudad enfrenta desafíos y aventuras en su vecindario urbano.",
+        "description": "Hey Arnold sigue las aventuras de Arnold, un niño de la ciudad que enfrenta desafíos y aventuras en su vecindario urbano. Arnold vive con sus abuelos y tiene amigos peculiares. La serie combina comedia, drama y temas de crecimiento.",
+        "imageUrl": "https://imgix.ranker.com/user_node_img/58/1158378/original/hey-arnold-photo-u9?fit=crop&fm=pjpg&q=60&w=375&dpr=2",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "7 de octubre de 1996",
+          "capituloConMayorRating": "El episodio 'The Journal' es un episodio especial que revela el pasado de los padres de Arnold.",
+          "datoCurioso": "Hey Arnold es recordada por su representación de la vida en la ciudad y sus personajes memorables."
+        }
+      },
+      {
+        "id": "rugrats",
+        "channel": "Nickelodeon",
+        "name": "Rugrats",
+        "genre": "Animación, Comedia, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Un grupo de bebés vive aventuras desde su perspectiva única.",
+        "description": "Rugrats sigue las aventuras de un grupo de bebés, incluyendo a Tommy, Chuckie, Phil y Lil, mientras viven aventuras desde su perspectiva única. La serie combina comedia y exploración infantil en un mundo lleno de imaginación.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.QTmq7X_49DfDbOGMnFAy_gHaKG?pid=ImgDet&rs=1",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "11 de agosto de 1991",
+          "capituloConMayorRating": "El episodio 'Chanukah' es uno de los más destacados de la serie.",
+          "datoCurioso": "Rugrats fue un gran éxito y tuvo varias películas y spin-offs."
+        }
+      },
+      {
+        "id": "bob-esponja",
+        "channel": "Nickelodeon",
+        "name": "Bob Esponja",
+        "genre": "Animación, Comedia, Aventura",
+        "status": "En curso",
+        "targetAudience": "Niños y adolescentes",
+        "shortDescription": "Una esponja de mar y sus amigos viven aventuras bajo el mar en Fondo de Bikini.",
+        "description": "Bob Esponja sigue las aventuras de Bob Esponja, una esponja de mar que vive en Fondo de Bikini, junto con sus amigos, como Patricio y Arenita. La serie combina comedia y aventura en un mundo submarino lleno de personajes únicos.",
+        "imageUrl": "https://th.bing.com/th/id/OIP.rGidyeZLc_LOEGwWYG85uQAAAA?pid=ImgDet&rs=1",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "1 de mayo de 1999",
+          "capituloConMayorRating": "El episodio 'Band Geeks' es uno de los más queridos por los fanáticos.",
+          "datoCurioso": "Bob Esponja es una de las series animadas más icónicas de todos los tiempos."
+        }
+      },
+      {
+        "id": "pistas-de-blue",
+        "channel": "Nickelodeon",
+        "name": "Pistas de Blue",
+        "genre": "Animación, Infantil, Aventura",
+        "status": "Finalizada",
+        "targetAudience": "Niños",
+        "shortDescription": "Una niña y su perrita resuelven acertijos y problemas con la ayuda de pistas.",
+        "description": "Pistas de Blue sigue las aventuras de una niña llamada Blue y su perrita, quienes resuelven acertijos y problemas con la ayuda de pistas. La serie fomenta la resolución de problemas y la creatividad en los niños.",
+        "imageUrl": "https://th.bing.com/th/id/R.dc326026f05b50c593af4eb3e7d19bba?rik=2AYZaQcohAyeBA&ri[…]hFNxxltL6N%2f2FOV9eK%2b4nBH6USxA6%2buWU%3d&risl=&pid=ImgRaw&r=0",
+        "facts": {
+          "fechaDeCreacionDelPrograma": "10 de septiembre de 1996",
+          "capituloConMayorRating": "El episodio 'Blue's Big Musical Movie' es una película especial que destaca en la serie.",
+          "datoCurioso": "Pistas de Blue ha sido elogiada por su enfoque educativo y divertido."
+        }
+      }
+    ];
+    
+  

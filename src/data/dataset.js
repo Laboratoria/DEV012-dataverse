@@ -1,7 +1,8 @@
 export default 
-// Arroja error cuando tiene const 
-    disneyChannelPrograms = [
+
+  [
     {
+      "channel":"disney",
       "id": "gravity-falls",
       "name": "Gravity Falls",
       "genre": "Animación, Comedia, Misterio",
@@ -13,6 +14,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Gravity_Falls.jpg"
     },
     {
+      "channel":"disney",
       "id": "kim-possible",
       "name": "Kim Possible",
       "genre": "Animación, Acción, Aventura",
@@ -24,6 +26,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Kim_Possible.jpg"
     },
     {
+      "channel":"disney",
       "id": "phineas-ferb",
       "name": "Phineas y Ferb",
       "genre": "Animación, Comedia, Musical",
@@ -35,6 +38,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Phineas_y_Ferb.jpg"
     },
     {
+      "channel":"disney",
       "id": "the-owl-house",
       "name": "The Owl House",
       "genre": "Animación, Aventura, Fantasía",
@@ -46,6 +50,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_The_Owl_House.jpg"
     },
     {
+      "channel":"disney",
       "id": "darkwing-duck",
       "name": "El Pato Darkwing",
       "genre": "Animación, Acción, Comedia",
@@ -57,6 +62,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_El_Pato_Darkwing.jpg"
     },
     {
+      "channel": "disney",
       "id": "star-vs-the-forces-of-evil",
       "name": "Star vs. Las Fuerzas del Mal",
       "genre": "Animación, Aventura, Fantasía",
@@ -66,10 +72,9 @@ export default
       "description": "Star vs. Las Fuerzas del Mal sigue la historia de Star Butterfly, una princesa extraterrestre que es enviada a la Tierra como castigo. Allí, se convierte en amiga de Marco y juntos luchan contra monstruos y criaturas mágicas. La serie combina acción, aventura y elementos mágicos en una emocionante trama.",
       "funFact": "La serie fue creada por Daron Nefcy, una de las pocas mujeres creadoras de series animadas en la industria.",
       "imageUrl": "URL_de_la_imagen_de_Star_vs_Las_Fuerzas_del_Mal.jpg"
-    }
-  ];
-   cartoonNetworkPrograms = [
+    },
     {
+      "channel": "cartoonNetwork",
       "id": "laboratorio-de-dexter",
       "name": "Laboratorio de Dexter",
       "genre": "Animación, Comedia, Ciencia ficción",
@@ -81,6 +86,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Laboratorio_de_Dexter.jpg"
     },
     {
+      "channel": "cartoonNetwork",
       "id": "coraje-el-perro-cobarde",
       "name": "Coraje el Perro Cobarde",
       "genre": "Animación, Comedia, Terror",
@@ -92,6 +98,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Coraje_el_Perro_Cobarde.jpg"
     },
     {
+      "channel": "cartoonNetwork",
       "id": "jhony-bravo",
       "name": "Johnny Bravo",
       "genre": "Animación, Comedia",
@@ -103,6 +110,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Johnny_Bravo.jpg"
     },
     {
+      "channel": "cartoonNetwork",
       "id": "ed-edd-y-eddy",
       "name": "Ed, Edd y Eddy",
       "genre": "Animación, Comedia",
@@ -114,6 +122,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Ed_Edd_y_Eddy.jpg"
     },
     {
+      "channel": "cartoonNetwork",
       "id": "las-chicas-superpoderosas",
       "name": "Las Chicas Superpoderosas",
       "genre": "Animación, Acción, Comedia",
@@ -125,6 +134,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Las_Chicas_Superpoderosas.jpg"
     },
     {
+      "channel": "cartoonNetwork",
       "id": "ben-10",
       "name": "Ben 10",
       "genre": "Animación, Acción, Ciencia ficción",
@@ -134,11 +144,9 @@ export default
       "description": "Ben 10 sigue la historia de Ben Tennyson, un niño que encuentra un dispositivo alienígena llamado el Omnitrix que le permite transformarse en diferentes héroes alienígenas para luchar contra el mal. Junto a sus primos Gwen y Max, viaja en una caravana combatiendo amenazas alienígenas. La serie combina acción, ciencia ficción y aventura en un mundo lleno de alienígenas y misterios.",
       "funFact": "A lo largo de la serie, Ben adquiere más de 70 formas alienígenas diferentes.",
       "imageUrl": "URL_de_la_imagen_de_Ben_10.jpg"
-    }
-  ];
-
-  const discoveryKidsPrograms = [
+    },
     {
+      "channel": "discoveryKids",
       "id": "backyardigans",
       "name": "Backyardigans",
       "genre": "Animación, Musical",
@@ -150,6 +158,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Backyardigans.jpg"
     },
     {
+      "channel": "discoveryKids",
       "id": "jorge-el-curioso",
       "name": "Jorge el Curioso",
       "genre": "Animación, Aventura",
@@ -161,6 +170,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Jorge_el_Curioso.jpg"
     },
     {
+      "channel": "discoveryKids",
       "id": "cubitos",
       "name": "Cubitos",
       "genre": "Animación, Comedia",
@@ -172,6 +182,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Cubitos.jpg"
     },
     {
+      "channel": "discoveryKids",
       "id": "pez-astronauta",
       "name": "Pez Astronauta",
       "genre": "Animación, Aventura",
@@ -183,6 +194,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Pez_Astronauta.jpg"
     },
     {
+      "channel": "discoveryKids",
       "id": "louie",
       "name": "Louie",
       "genre": "Animación, Comedia",
@@ -194,6 +206,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Louie.jpg"
     },
     {
+      "channel": "discoveryKids",
       "id": "martha-habla",
       "name": "Martha Habla",
       "genre": "Animación, Aventura",
@@ -203,11 +216,9 @@ export default
       "description": "Martha Habla sigue las aventuras de Martha, un perro que adquiere la habilidad de hablar después de comer sopa de letras. Martha tiene aventuras emocionantes y aprende nuevas palabras en cada episodio. La serie fomenta la alfabetización y el aprendizaje del lenguaje.",
       "funFact": "Martha Habla se basa en la serie de libros para niños 'Martha Speaks' de Susan Meddaugh.",
       "imageUrl": "URL_de_la_imagen_de_Martha_Habla.jpg"
-    }
-  ];
-  // Aca no genera error. WHY?
-  const nickelodeonPrograms = [
+    },
     {
+      "channel": "nickelodeon",
       "id": "los-padrinos-magicos",
       "name": "Los Padrinos Mágicos",
       "genre": "Animación, Comedia, Fantasía",
@@ -219,6 +230,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_Los_Padrinos_Magicos.jpg"
     },
     {
+      "channel": "nickelodeon",
       "id": "catdog",
       "name": "CatDog",
       "genre": "Animación, Comedia",
@@ -230,6 +242,7 @@ export default
       "imageUrl": "URL_de_la_imagen_de_CatDog.jpg"
     },
     {
+      "channel": "nickelodeon",
       "id": "jimmy-neutron",
       "name": "Jimmy Neutron",
       "genre": "Animación, Aventura, Ciencia ficción",
@@ -240,7 +253,7 @@ export default
       "funFact": "La serie tuvo una película titulada 'Jimmy Neutron: El Niño Genio' que se estrenó en 2001.",
       "imageUrl": "URL_de_la_imagen_de_Jimmy_Neutron.jpg"
     },
-    {
+    {"channel": "nickelodeon",
       "id": "hey-arnold",
       "name": "Hey Arnold",
       "genre": "Animación, Comedia, Drama",
@@ -251,7 +264,7 @@ export default
       "funFact": "La serie es conocida por su estilo visual único y personajes memorables.",
       "imageUrl": "URL_de_la_imagen_de_Hey_Arnold.jpg"
     },
-    {
+    {"channel": "nickelodeon",
       "id": "rugrats",
       "name": "Rugrats",
       "genre": "Animación, Comedia",
@@ -262,7 +275,7 @@ export default
       "funFact": "La serie tuvo una película titulada 'Rugrats: La Película' que se estrenó en 1998.",
       "imageUrl": "URL_de_la_imagen_de_Rugrats.jpg"
     },
-    {
+    {"channel": "nickelodeon",
       "id": "bob-esponja",
       "name": "Bob Esponja",
       "genre": "Animación, Comedia",

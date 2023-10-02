@@ -196,7 +196,7 @@ export default
       },
       {
         "id": "backyardigans",
-        "channel": "Nickelodeon",
+        "channel": "Discovery Kids",
         "name": "Backyardigans",
         "genre": "Animación, Musical, Aventura",
         "status": "Finalizada",
@@ -212,7 +212,7 @@ export default
       },
       {
         "id": "jorge-el-curioso",
-        "channel": "Nickelodeon",
+        "channel": "Discovery Kids",
         "name": "Jorge el Curioso",
         "genre": "Animación, Aventura, Comedia",
         "status": "Finalizada",
@@ -228,7 +228,7 @@ export default
       },
       {
         "id": "cubitos",
-        "channel": "Nickelodeon",
+        "channel": "Discovery Kids",
         "name": "Cubitos",
         "genre": "Animación, Comedia, Aventura",
         "status": "Finalizada",
@@ -244,7 +244,7 @@ export default
       },
       {
         "id": "pez-astronauta",
-        "channel": "Nickelodeon",
+        "channel": "Discovery Kids",
         "name": "Pez Astronauta",
         "genre": "Animación, Ciencia ficción, Aventura",
         "status": "Finalizada",
@@ -260,7 +260,7 @@ export default
       },
       {
         "id": "louie",
-        "channel": "Nickelodeon",
+        "channel": "Discovery Kids",
         "name": "Louie",
         "genre": "Animación, Comedia, Aventura",
         "status": "Finalizada",
@@ -276,7 +276,7 @@ export default
       },
       {
         "id": "martha-habla",
-        "channel": "Nickelodeon",
+        "channel": "NiDiscovery Kids",
         "name": "Martha Habla",
         "genre": "Animación, Comedia, Aventura",
         "status": "Finalizada",

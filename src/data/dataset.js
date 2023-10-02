@@ -1,6 +1,6 @@
 export default 
 
-  dataBaseChannels =
+  data =
   [
       {
         "id": "gravity-falls",
@@ -38,7 +38,7 @@ export default
         "id": "phineas-y-ferb",
         "channel": "Disney Channel",
         "name": "Phineas y Ferb",
-        "genre": "Animación, Comedia, Música",
+        "genre": "Animación, Comedia, Musical",
         "status": "Finalizada",
         "targetAudience": "Niños y adolescentes",
         "shortDescription": "Dos hermanos tienen aventuras épicas durante sus vacaciones de verano.",
@@ -294,7 +294,7 @@ export default
         "id": "catdog",
         "channel": "Nickelodeon",
         "name": "CatDog",
-        "genre": "Animación, Comedia, Surrealismo",
+        "genre": "Animación, Comedia",
         "status": "Finalizada",
         "targetAudience": "Niños y adolescentes",
         "shortDescription": "Un gato y un perro siameses viven juntos a pesar de sus diferencias.",
@@ -326,7 +326,7 @@ export default
         "id": "hey-arnold",
         "channel": "Nickelodeon",
         "name": "Hey Arnold",
-        "genre": "Animación, Comedia, Drama",
+        "genre": "Animación, Comedia",
         "status": "Finalizada",
         "targetAudience": "Niños y adolescentes",
         "shortDescription": "Un niño de la ciudad enfrenta desafíos y aventuras en su vecindario urbano.",
@@ -374,7 +374,7 @@ export default
         "id": "pistas-de-blue",
         "channel": "Nickelodeon",
         "name": "Pistas de Blue",
-        "genre": "Animación, Infantil, Aventura",
+        "genre": "Animación, Aventura",
         "status": "Finalizada",
         "targetAudience": "Niños",
         "shortDescription": "Una niña y su perrita resuelven acertijos y problemas con la ayuda de pistas.",

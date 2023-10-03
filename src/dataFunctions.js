@@ -3,13 +3,13 @@
 export const filterData = (data, filterBy, value) => {
   const filteredData = [];
 
-  data.array.forEach(element => {
-    if(element[filterBy] === value){
-      filteredData.push(element)
+  data.forEach((element) => {
+    if (element[filterBy] === value) {
+      filteredData.push(element);
     }
   });
   return filteredData;
-  };
+};
 
 export const anotherExample = () => {
   return [];

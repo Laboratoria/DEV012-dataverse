@@ -1,6 +1,5 @@
 export default 
 
-   data =
   [
       {
         "id": "gravity-falls",

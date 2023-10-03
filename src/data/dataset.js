@@ -1,6 +1,6 @@
 export default 
 
-  data =
+   data =
   [
       {
         "id": "gravity-falls",
@@ -18,7 +18,8 @@ export default
           "datoCurioso": "Gravity Falls ha desarrollado una base de fanáticos apasionados debido a su narrativa intrigante y personajes carismáticos."
         }
       },
-      {
+      
+      ( { 
         "id": "kim-possible",
         "channel": "Disney Channel",
         "name": "Kim Possible",
@@ -356,7 +357,7 @@ export default
       },
       {
         "id": "bob-esponja",
-        "channel": "Nickelodeon",
+        channel: "Nickelodeon",
         "name": "Bob Esponja",
         "genre": "Animación, Comedia, Aventura",
         "status": "En curso",
@@ -385,5 +386,5 @@ export default
           "capituloConMayorRating": "El episodio 'Blue's Big Musical Movie' es una película especial que destaca en la serie.",
           "datoCurioso": "Pistas de Blue ha sido elogiada por su enfoque educativo y divertido."
         }
-      }
+      })
     ];

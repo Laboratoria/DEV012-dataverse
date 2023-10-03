@@ -1,13 +1,15 @@
 // Estas funciones son ejemplos, aquí puedes desarrollar tus propias funciones.
-let dataRequiredByUser =
 
 export const filterData = (data, filterBy, value) => {
-  data.forEach(dataFoundByFilters);
-  function dataFoundByFilters {
-    return 
+  const filteredData = [];
 
-  }
-};
+  data.array.forEach(element => {
+    if(element[filterBy] === value){
+      filteredData.push(element)
+    }
+  });
+  return filteredData;
+  };
 
 export const anotherExample = () => {
   return [];

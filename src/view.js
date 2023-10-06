@@ -11,8 +11,11 @@ export const renderItems = (data) => {
     const li = `
     <li class="elements">
       <dl itemscope itemtype="https://schema.org/TVSeries" class="user-name">
-      <img src="${element.imageUrl}" class="img"/>
+        <figure>
+          <img src="${element.imageUrl}" class="img"/>
+        </figure>
         <dt itemprop=""><b>${element.name}</b></dt><dd itemprop=""> Canal de Television : ${element.channel}</dd>
+        <dt itemprop="">Genero: ${element.genre}</dt>
       </dl>
     </li>
   `;

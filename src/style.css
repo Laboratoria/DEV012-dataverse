@@ -13,11 +13,11 @@
 /* Mediaquery Desktop*/
 /* @media (min-width: 1025px) { */
 
-    
-    
-/* } */ 
 
-ul{
+
+/* } */
+
+ul {
     display: flex;
     align-items: baseline;
     flex-wrap: wrap;
@@ -28,13 +28,13 @@ ul{
     padding: 20px;
 }
 
-.img{
+.img {
 
-    width: 100px;
-    height: 100px;
+    width: 100%;
+
 }
 
-li{
+li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,18 +47,11 @@ li{
     border-radius: 50px;
 }
 
-dl{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-align-items: center;
-padding: 10px;
-font-size: smaller;
+dl {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    font-size: smaller;
 }
-
-dt{
-    margin-top: 50px;
-}
-
-
-     

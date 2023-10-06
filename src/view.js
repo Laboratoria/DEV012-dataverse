@@ -1,15 +1,29 @@
-import { filterData } from "./dataFunctions";
-
 export const renderItems = (data) => {
-  console.log(data)
   // Aquí comienza tu código y puedes retornar lo que tu necesites
-  const channel = document.querySelector("select[name='channel']");
+  //Crear un elemento ul por cada elemento en data
+  const ul = document.createElement("ul");
 
-  function selectChannel () {
+  data.forEach(createLi);
 
-  const selectedChannel = dataFunctions.filterData(channel.value);
-  document.getElementById("root").innerHTML = JSON.stringify(selectedChannel);
+  function createLi(element) {
+    // const li = document.createElement("li");
+    // //Inyectar cada li con los datos de cada elemento
+    const li = `
+    <li class="elements">
+      <dl itemscope itemtype="https://schema.org/TVSeries" class="user-name">
+      <img src="${element.imageUrl}" class="img"/>
+        <dt itemprop=""><b>${element.name}</b></dt><dd itemprop=""> Canal de Television : ${element.channel}</dd>
+      </dl>
+    </li>
+  `;
+
+    //Cada li inyectarlo en la ul
+    ul.innerHTML += li
   }
-  selectChannel ();
-};
 
+  //Renderizar el ul
+  const rootElement = document.getElementById("root");
+  
+  rootElement.innerHTML = '';
+  rootElement.appendChild(ul);
+};

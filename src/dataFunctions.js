@@ -6,9 +6,14 @@ export const filterData = (data, filterBy, value) => {
   data.forEach((element) => {
     if (element[filterBy] === value) {
       filteredData.push(element);
-    }
+    } 
   });
-  return filteredData;
+
+  if (filteredData.length > 0) {
+    return filteredData;
+  }
+
+  return data
 };
 
 export const anotherExample = () => {

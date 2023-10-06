@@ -1,14 +1,64 @@
 /* Mediaquery Mobile */
-@media ( max-width: 480px) {
+/* @media ( max-width: 480px) {
+
+    
 
 }
 
 /* Mediaquery Tablets*/
-@media ( min-width: 481px) and (max-width:1024px) {
+/* @media ( min-width: 481px) and (max-width:1024px) {
 
 }
 
 /* Mediaquery Desktop*/
-@media (min-width: 1025px) {
+/* @media (min-width: 1025px) { */
+
     
+    
+/* } */ 
+
+ul{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    list-style: none;
+    column-gap: 15px;
+    row-gap: 15px;
+    justify-content: center;
+    padding: 20px;
 }
+
+.img{
+
+    width: 100px;
+    height: 100px;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+    direction: rtl;
+    background-color: brown;
+    text-align: center;
+    border: black solid;
+    border-radius: 50px;
+}
+
+dl{
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+align-items: center;
+padding: 10px;
+font-size: smaller;
+}
+
+dt{
+    margin-top: 50px;
+}
+
+
+     

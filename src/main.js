@@ -1,11 +1,22 @@
-import { filterData } from './dataFunctions.js';
-import { renderItems } from './view.js';
+import { filterData } from "./dataFunctions.js";
+import { renderItems } from "./view.js";
 
-import data from './data/dataset.js';
+import data from "./data/dataset.js";
 
+const channel = document.querySelector("select[name='channel']");
 
+renderItems(data);
 
 channel.addEventListener("change", selectChannel);
 
+function selectChannel() {
+    
+  const selectedChannel = channel.value;
 
-console.log(filterData(data, null, null), renderItems(null), data);
+  const filteredElements = filterData(data, "channel", selectedChannel);
+
+  renderItems(filteredElements);
+  
+};
+
+

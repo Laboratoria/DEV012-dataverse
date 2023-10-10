@@ -14,9 +14,18 @@
 /* @media (min-width: 1025px) { */
 
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* } */
-
+h1 {
+    background-color:aqua;
+    text-align: center;
+    position: fixed;
+    width: 1500px;
+    margin-top: 0px;
+}
 ul {
     display: flex;
     align-items: baseline;
@@ -26,6 +35,8 @@ ul {
     row-gap: 50px;
     justify-content: center;
     padding: 20px;
+    margin-top: 50px;
+    margin-left: 70px;
     
 }
 
@@ -35,9 +46,6 @@ ul {
     height: 250px;
     border: black solid;
     border-radius: 50px 0;
-    
-    
-
 }
 
 .card {
@@ -99,8 +107,40 @@ footer {
     padding: 20px;
 }
 
- dl {
+#sideBar {
+    position: fixed;
+    width: 150px;
+    height: 100%;
+    background-color: #3AA6B9;
+    color: black;
+    left: -150px;
+    margin-top: 37px;
+    align-items: center;
+    text-align: center;
+}
+
+
+select {
+    color: white;
+    text-align: center;
+    width: 150px;
+}
+
+#sideBar .toggle-btn {
+    left: 150px;
+    top: 0px;
+    cursor: pointer;
+}
+#sideBar.active{
+    left: 0;
+}
+.toggle-btn {
     display: block;
-    margin: inherit;
-   
-} 
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    position:absolute;
+    cursor: pointer;
+}
+

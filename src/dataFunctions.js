@@ -9,20 +9,19 @@ export const filterData = (data, filterBy, value) => {
     } 
   });
 
-  if (filteredData.length > 0) {
     return filteredData;
-  }
+  
 
-  return data
 };
 
 export const sortData = (data, sortBy,sortOrder) => {
 
   data.forEach((element) => {
     if(element[sortBy] === sortOrder){
-      
+
     }
   })
   
   
 };
+//filteredData

@@ -12,65 +12,43 @@ const channel = document.querySelector("select[name='channel']");
 const targetAudience = document.querySelector("select[name='targetAudience']");
 const status = document.querySelector("select[name='status']");
 
-channel.addEventListener("change", applyFilters);
-targetAudience.addEventListener("change", applyFilters);
-status.addEventListener("change", applyFilters);
+let filteredData = data;
 
-function applyFilters() {
-  const selectedValue = {};
+channel.addEventListener("change", selectChannel);
+targetAudience.addEventListener("change", selectPublic);
+status.addEventListener("change", selectTransmission);
 
-  //almacenar los valores seleccionados de cada filtro en selectedValue
-  selectedValue.channel = channel.value;
-  selectedValue.audience = targetAudience.value;
-  selectedValue.status = status.value;
-  console.log(
-    "🚀 ~ file: main.js:30 ~ applyFilters ~ selectedValue:",
-    selectedValue
-  );
 
-  let filteredData = [];
+function selectChannel() {
 
-  filteredData = filterData(data, "channel", channel.value);
-  filteredData = filterData(filteredData, "status", status.value);
-  filteredData = filterData(filteredData, "targetAudience",targetAudience.value);
-  
+    const selectedChannel = channel.value;
 
-  if (filteredData.length > 0) {
-    renderItems(filteredData);
-  }
-  console.log("🚀 ~ file: main.js:38 ~ applyFilters ~ filteredData:",filteredData);
+    filteredData = filterData (filteredData, "channel", selectedChannel );
+
+    renderItems(filteredData)
 }
 
-// Evento de sideBar
 
+function selectPublic() {
 
-const btnToggle = document.querySelector(".toggle-btn");
+    const selectedPublic = targetAudience.value;
 
-btnToggle.addEventListener("click", function () {
-  document.getElementById("sideBar").classList.toggle("active");
-})
+    filteredData = filterData (filteredData, "targetAudience", selectedPublic );
 
+    renderItems(filteredData)
+}
 
+function selectTransmission() {
 
+  const selectedTransmission = status.value;
 
-// function selectPublic() {
+  filteredData = filterData(filteredData, "status", selectedTransmission);
 
-//     const selectedPublic = audience.value;
+  renderItems(filteredData);
 
-//     const filteredElements = filterData (data, "targetAudience", selectedPublic );
+};
 
-//     renderItems(filteredElements)
-// }
-
-// function selectTransmission() {
-
-//   const selectedTransmission = transmission.value;
-
-//   const filteredTransmission = filterData(data, "status", selectedTransmission);
-
-//   renderItems(filteredTransmission);
-
-// };
+// select.selectedIndex = 0;
 
 // const selection = document.querySelectorAll("select[data-testid='select-filter']");
 
@@ -109,3 +87,33 @@ btnToggle.addEventListener("click", function () {
 
 //Filtrar por cada selector(forEach)
 //Renderizar los elementos filtrados
+
+// function applyFilters() {
+//     const selectedValue = {};
+  
+//     //almacenar los valores seleccionados de cada filtro en selectedValue
+//     selectedValue.channel = channel.value;
+//     selectedValue.audience = targetAudience.value;
+//     selectedValue.status = status.value;
+//     console.log(
+//       "🚀 ~ file: main.js:30 ~ applyFilters ~ selectedValue:",selectedValue);
+  
+    
+  
+//     filteredData = filterData(filteredData, "channel", channel.value);
+//     filteredData = filterData(filteredData, "status", status.value);
+//     filteredData = filterData(filteredData, "targetAudience",targetAudience.value);
+    
+  
+//     if (filteredData.length > 0) {
+//       renderItems(filteredData);
+//     }
+//     console.log("🚀 ~ file: main.js:38 ~ applyFilters ~ filteredData:",filteredData);
+//   }
+
+// Evento de sideBar
+const btnToggle = document.querySelector(".toggle-btn");
+
+btnToggle.addEventListener("click", function () {
+  document.getElementById("sideBar").classList.toggle("active");
+})

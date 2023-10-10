@@ -1,40 +1,49 @@
 import { filterData } from "./dataFunctions.js";
 import { renderItems } from "./view.js";
+import { sortData } from "./dataFunctions.js";
 
 import data from "./data/dataset.js";
 
 renderItems(data);
 
 //Variable que almacena los filtros seleccionados y crean un objeto a la vez.
-const filters = {};
 
 const channel = document.querySelector("select[name='channel']");
-const audience = document.querySelector("select[name='targetAudience']");
+const targetAudience = document.querySelector("select[name='targetAudience']");
 const status = document.querySelector("select[name='status']");
 
-
-
 channel.addEventListener("change", applyFilters);
-audience.addEventListener("change", applyFilters);
+targetAudience.addEventListener("change", applyFilters);
 status.addEventListener("change", applyFilters);
 
-
 function applyFilters() {
+  const selectedValue = {};
 
-    //almacenar los valores seleccionados de cada filtro en filters{}
-  filters.channel = channel.value;
-  filters.audience = audience.value;
-  filters.status = status.value;
+  //almacenar los valores seleccionados de cada filtro en selectedValue
+  selectedValue.channel = channel.value;
+  selectedValue.audience = targetAudience.value;
+  selectedValue.status = status.value;
+  console.log(
+    "🚀 ~ file: main.js:30 ~ applyFilters ~ selectedValue:",
+    selectedValue
+  );
 
-// Recorrer el objeto filters
-  filters.forEach((element) => {
-    //filtrar los elementos por los selectores escogidos
-    
-  });
+  let filteredData = [];
 
-  renderItems(filteredElements);
+  filteredData = filterData(data, "channel", channel.value);
+  filteredData = filterData(filteredData, "status", status.value);
+  filteredData = filterData(filteredData, "targetAudience",targetAudience.value);
   
-};
+
+  if (filteredData.length > 0) {
+    renderItems(filteredData);
+  }
+  console.log("🚀 ~ file: main.js:38 ~ applyFilters ~ filteredData:",filteredData);
+}
+
+
+
+
 
 
 
@@ -48,9 +57,6 @@ function applyFilters() {
 //     renderItems(filteredElements)
 // }
 
-
-
-
 // function selectTransmission() {
 
 //   const selectedTransmission = transmission.value;
@@ -63,32 +69,36 @@ function applyFilters() {
 
 // const selection = document.querySelectorAll("select[data-testid='select-filter']");
 
-
 // selection.addEventListener("change", selectElements);
 
 // function selectElements() {
-    
+
 //       const selectedElements = selection.value;
-    
+
 //       const filteredElements = filterData(data, selection.name , selectedElements);
-    
+
 //       renderItems(filteredElements);
-      
+
 //     };
 
 //Steps: -Almacenar los selectores a filtrar
 // const selectorsList = document.querySelectorAll("select[data-testid='select-filter']");
 //[select1, select]
 
-// - Almacenar los elementos 
-{/* <select data-testid="select-filter" name="targetAudience" value=''>
+// - Almacenar los elementos
+{
+  /* <select data-testid="select-filter" name="targetAudience" value=''>
 <option value="">Todos</option>
 <option value="Niños">Niños</option>
 <option value="Niños y adolescentes">Niños y adolescentes</option>
-</select> */}
+</select> */
+}
 
 // -Recorrer el listado de los selectores
 //  selectorsList.forEach((element) => {
+// if(element === value){
+// filters.push(element)
+// }
 
 //  })
 

@@ -16,6 +16,8 @@ export const filterData = (data, filterBy, value) => {
   return data
 };
 
-export const anotherExample = () => {
-  return [];
+export const sortData = (data, sortBy,sortOrder) => {
+
+  
+  
 };

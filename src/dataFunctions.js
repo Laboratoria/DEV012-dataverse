@@ -18,6 +18,9 @@ export const filterData = (data, filterBy, value) => {
 
 export const sortData = (data, sortBy,sortOrder) => {
 
+  data.forEach((element) => {
+    if(element)
+  })
   
   
 };

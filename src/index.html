@@ -2,10 +2,42 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Data Lovers</title>
+    <title>Data Lovers|Abejas</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <header><h1>Abejas</h1></header>
+     <main>
+      <h2>En esta página, podrás explorar una amplia variedad de abejas y utilizar filtros para clasificarlas según su familia de pertenencia.</h2>
+      
+        <label>Filtrar por familia </label>
+        <select data-testid="select-filter" name="familia">
+          <option value="">Elegir familia</option>
+          <option value="Apidae">Apidae</option>
+          <option value="Halictidae">Halictidae</option>      
+          <option value="Megachilidae">Megachilidae</option>
+          <option value="Colletida">Colletida</option>
+        </select>
+       
+
+
+        <label>Ordenar</label>
+        <select data-testid="select-sort" name="familia">
+          <option value="asc">Nombre A-Z</option>
+          <option value="desc">Nombre Z-A</option>
+        </select>
+
+        <button data-testid="button-clear">Borrar</button>
+        <div id="root">
+          <!-- el contenido se genero en  view.js -->
+        </div>
+
+       </main>
+
+    <footer>
+      <p>Sara Arvizu y Sara Saldarriaga </p>
+    </footer>
+
     <script src="main.js" type="module"></script>
   </body>
 </html>

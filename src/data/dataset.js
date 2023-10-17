@@ -4,7 +4,7 @@ export default [
     "name": "Abeja Apis mellifera",
     "shortDescription": "Abeja melífera europea",
     "description": "La Abeja Apis mellifera, también conocida como abeja melífera europea, es una especie de abeja altamente valorada por su capacidad para producir miel y polinizar una amplia variedad de cultivos en todo el mundo. Es una de las abejas más conocidas y domesticadas por los seres humanos.",
-    "imageUrl": "https://www.bing.com/images/create/apis-mellifera/6525d1d7302840e69e905d98bca9d794?id=4Pi8YrRVd7thTVzNMpbP0w%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay",
+    "imageUrl":"https://th.bing.com/th/id/OIG.cLhH2nLb4PoQa5Nrq0M9?pid=ImgGn",
     "facts": {
       "promedioDeVida": "de 4 a 5 semanas en verano",
       "familia": "Apidae",
@@ -59,7 +59,7 @@ export default [
     "name": "Abeja Halictus ligatus",
     "shortDescription": "Abeja sudorera verde",
     "description": "La Abeja Halictus ligatus, o abeja sudorera verde, es una especie de abeja sudorera que se encuentra en varias regiones de América del Norte. Son llamadas así porque a veces se sienten atraídas por el sudor humano.",
-    "imageUrl": "https://www.bing.com/images/create/halictus-ligatus/6525e3c1dcb84573a347654f85330501?id=571Sy%2fJpyUvvgGanMENZ9g%3d%3d&view=detailv2&idpp=genimg&FORM=GCRIDP&mode=overlay",
+    "imageUrl": "https://th.bing.com/th/id/OIG.CknQ63HJv4I0EYciEhAI?pid=ImgGn",
     "facts": {
       "promedioDeVida": "de 2 a 6 semanas",
       "familia": "Halictidae",

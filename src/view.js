@@ -19,10 +19,12 @@ export const renderItems = (data) => {
         <dd itemprop="shortDescription">${abeja.shortDescription}</dd>
         <dt><strong>Descripción:</strong></dt>
         <dd itemprop="description">${abeja.description}</dd>
+        
       </dl>
     `;
 
       //este código comprueba si existe información adicional sobre una abeja (como su familia y promedio de vida) en el objeto abeja, y si es así, la muestra en forma de una lista descriptiva en la página.
+
       const facts = abeja.facts;
       if (facts) {
         li.innerHTML += `
@@ -31,8 +33,27 @@ export const renderItems = (data) => {
           <dd itemprop="familia">${facts.familia}</dd>
           <dt><strong>Promedio de vida:</strong></dt>
           <dd itemprop="promedioDeVida">${facts.promedioDeVida}</dd>
+          <dt><strong>productor De Miel:</strong></dt>
+          <dd itemprop="productorDeMiel">${facts.productorDeMiel}</dd>
         </dl>
       `;
+      }
+
+      const curiosidades = abeja.extraInfo.curiosidades;
+      if (curiosidades && curiosidades.length > 0) {
+        let curiosidadesHTML = "";
+        for (let j = 0; j < curiosidades.length; j++) {
+          curiosidadesHTML += curiosidades[j];
+          if (j < curiosidades.length - 1) {
+            curiosidadesHTML += "<br>";
+          }
+        }
+        li.innerHTML += `
+    <dt><strong>Curiosidades:</strong></dt>
+    <dd itemprop="curiosidades">
+      ${curiosidadesHTML}
+    </dd>
+  `;
       }
 
       ul.appendChild(li);

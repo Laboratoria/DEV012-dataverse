@@ -1,5 +1,3 @@
-
-
 export function filterData(data, filterBy, value) {
   if (filterBy === "familia") {
     return data.filter((bee) => bee.facts && bee.facts.familia === value);

@@ -1,6 +1,12 @@
+
 import { filterData, sortData, computeStats } from "./dataFunctions.js";
 import data from "./data/dataset.js";
 import { renderItems } from "./view.js";
+
+/* eslint-disable no-console */
+import { example } from './dataFunctions.js';
+import { renderItems } from './view.js';
+
 
 // Selecciona el elemento del DOM para el selector de familia
 const familySelect = document.querySelector('[name="familia"]');
@@ -59,3 +65,7 @@ filterAndRenderData();
 // Calcula estadísticas y las muestra en la consola
 const stats = computeStats(data);
 window.console.log("Estadísticas:", stats);
+
+console.log (example, renderItems(data), data);
+
+

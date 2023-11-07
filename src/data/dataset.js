@@ -11,12 +11,8 @@ export default [
       "productorDeMiel": "Sí"
     },
     "extraInfo": {
-      "curiosidades": [
-        "Las abejas Apis mellifera son altamente sociales y viven en colmenas con una estructura jerárquica.",
-        "Son responsables de la polinización de numerosas frutas, verduras y cultivos de importancia económica."
-      ]
+      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
     }
-  
   },
   {
     "id": "bombus-terrestris",
@@ -432,4 +428,4 @@ export default [
       ]
     }
   }
-];
+]

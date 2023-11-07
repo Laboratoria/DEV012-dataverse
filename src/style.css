@@ -1,49 +1,47 @@
-* Estilos para el encabezado */
-header {
+
+
+header{
     margin-left: 50px;
-    text-align: left;
-    font-size: 40px;
-  }
-  
-  header h1 {
+    text-align: lef;
+    font-size: 100px;
+}
+
+header h1 {
     margin: 0;
-    font-size: 60px;
+    font-size: 100px;
     color: rgb(226, 165, 8);
-  }
-  
-  /* Estilos para subtítulos */
-  h2 {
+}
+
+
+
+
+h2{
     text-align: left;
     margin-left: 50px;
     font-size: 40px;
-  }
-  
-  /* Estilos para imágenes */
-  img {
-    width: 80%; /* Todas las imágenes tendrán el mismo ancho del 100% del contenedor */
-    height: auto; /* La altura se ajustará automáticamente */
-    display: block;
-    margin: 0 auto;
-  }
-  
-  /* Estilos para el aside */
-  aside {
+}
+
+
+
+
+aside{
+   
     padding-left: 15px;
     margin-right: 15px;
-    font-family: Arial, sans-serif; /* Corregir la propiedad a 'font-family' */
+    font-style: Arial;
     display: block;
-  }
-  
-  /* Estilos para etiquetas */
-  label {
+   
+}
+
+label{
     margin-left: 50px;
     font-size: 30px;
-  }
-  
-  /* Estilo para los elementos 'select' */
-  select {
+}
+
+/* Estilo para los elementos 'select' */
+select {
     padding: 5px;
-    font-size: 20px;
+    font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
     width: 200px;
@@ -52,161 +50,56 @@ header {
   
   /* Estilo para el botón */
   button {
-    padding: 10px 15px;
-    font-size: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
     background-color: #eebc0a;
     color: #fff;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
   }
 
-/* Estilos generales */
-li {
-  display: inline-block;
-  list-style: none;
-  border: 2px solid rgb(248, 238, 96);
-  padding: 10px;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  margin: 10px 0;
-  align-items: center;
-  justify-content: center;
-}
+  
 
-ul {
-  text-align: center;
-  width: 100%;
-  padding: 0;
-}
 
-#root {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.imgTarjeta {
-  width: 400px;
-  height: 400px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px;
-  border-radius: 10%;
-  border: 3px solid rgb(238, 238, 240);
-}
-
-/* Tarjetas */
-.tarjetas {
-  border-radius: 10px;
-  border: 4px solid rgb(239, 243, 9);
-  list-style: none;
-  margin: 5px;
-  height: 900px;
-  float: left;
-  padding: 5px;
-  width: calc(25% - 10px);
-  text-align: center;
-  box-sizing: border-box;
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-size: 18px;
-  font-family: 'Quicksand', sans-serif;
-  color: #333333;
-}
-
-/* Eliminar márgenes y rellenos predeterminados */
-dl, dd {
-  margin: 0;
-  padding: 0;
-}
-
-dd {
-  display: flex;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  max-width: 90%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
-}
-
-/* Estilo para texto con elipsis */
-.estilo {
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  overflow: hidden;
-  line-height: 1.2;
-  max-height: 3.6em;
-  display: flex;
-}
-
-/* Estilo para encabezados de lista */
-dt {
-  display: flex;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Estilos responsivos */
-@media (max-width: 912px) {
-  .tarjetas {
-    width: calc(50% - 10px);
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    text-align: center;
+#root{
     display: flex;
-    justify-content: center;
-  }
-
-  li {
+    flex-direction: row;
     width: 100%;
-    margin: 0;
-    white-space: normal;
-    overflow: visible;
-  }
+    height: 100%;
+    flex-wrap: wrap;
+     
+}
 
-  .imgTarjeta {
-    width: 200px;
-    height: 200px;
+li{
+    border-radius: 10px 5px 10px;
+    border: 1px solid rgb(226, 165, 8);
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 20%; 
+    float: left; 
+    height: 14%;  
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
     display: block;
-    margin: 0 auto;
-    margin-top: 20px;
-    border-radius: 20%;
-  }
-
-  .estilo {
-    white-space: normal;
-    text-overflow: clip;
-  }
-
-  dd {
-    white-space: normal;
-    overflow: visible;
-    max-width: 100%;
-  }
-
-  dt {
-    white-space: normal;
-    overflow: visible;
-    max-width: 100%;
-  }
+    margin:0 auto;
 }
 
-/* Estilos para dispositivos móviles */
-@media (max-width: 480px) {
-  .tarjetas {
-    width: calc(100% - 10px);
-    box-sizing: border-box;
-    margin-bottom: 10px;
-    text-align: center;
-    display: block; /* Cambia a "display: block" para que las tarjetas se ubiquen una debajo de la otra */
-  }
+footer{
+    background-color:rgb(226, 165, 8) ;
+    padding: 50px;
 }
+
+footer p{
+    font-size: 20px;
+} 
+

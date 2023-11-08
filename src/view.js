@@ -2,13 +2,15 @@ export const renderItems = (data) => {
   const ul = document.createElement("ul");
   data.forEach((bee) => { // Utilizamos forEach para iterar sobre el array data
     const li = document.createElement("li");
-    li.classList.add("tarjetas"); // Agregue la clase "tarjetas" si es necesario
+    li.classList.add("tarjetas"); // AGREGUE ESTO
     li.setAttribute("itemtype", "http://schema.org/Animal"); // Agregar itemtype al elemento li
     li.setAttribute("itemscope", ""); // Agregar itemscope al elemento li
 
     li.innerHTML = `
       <dl itemscope itemtype="http://schema.org/Animal">
         <img class="imgTarjeta" src="${bee.imageUrl}" alt="${bee.id}">
+<<<<<<< HEAD
+=======
         <dt><strong>Nombre:</strong></dt>
         <dd itemprop="name">${bee.name}</dd>
         <dt><strong>Corta descripción:</strong></dt>

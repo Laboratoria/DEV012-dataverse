@@ -1,7 +1,6 @@
 export const renderItems = (data) => {
   const ul = document.createElement("ul");
-  for (let i = 0; i < data.length; i++) {
-    const bee = data[i];
+  data.forEach((bee) => { // Utilizamos forEach para iterar sobre el array data
     const li = document.createElement("li");
     li.classList.add("tarjetas"); // Agregue la clase "tarjetas" si es necesario
     li.setAttribute("itemtype", "http://schema.org/Animal"); // Agregar itemtype al elemento li
@@ -25,6 +24,6 @@ export const renderItems = (data) => {
       </dl>
     `;
     ul.appendChild(li);
-  }
+  });
   return ul;
 };

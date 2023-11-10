@@ -12,7 +12,7 @@ const sortSelect = document.querySelector('[name="orden"]');
 const resetButton = document.querySelector('[data-testid="button-clear"]');
 
 // Selecciona el elemento del DOM donde se mostrarán las tarjetas
-const rootElement = document.querySelector('#root');
+const rootElement = document.querySelector("#root");
 
 // Agrega las tarjetas iniciales al elemento root
 rootElement.appendChild(renderItems(data));

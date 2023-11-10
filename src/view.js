@@ -9,8 +9,6 @@ export const renderItems = (data) => {
     li.innerHTML = `
       <dl itemscope itemtype="http://schema.org/Animal">
         <img class="imgTarjeta" src="${bee.imageUrl}" alt="${bee.id}">
-<<<<<<< HEAD
-=======
         <dt><strong>Nombre:</strong></dt>
         <dd itemprop="name">${bee.name}</dd>
         <dt><strong>Corta descripción:</strong></dt>

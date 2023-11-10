@@ -1,378 +1,796 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "Nike001",
+    "brand":"Nike",
+    "name": "Air Max 1",
+    "shortDescription": "El inicio de la revolución Air Max.",
+    "description": "Su diseño icónico y la unidad visible de aire en el talón hicieron que se convirtiera en un clásico instantáneo en 1987.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.05t3Jm5HE_bAs_w7PUGd?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "modelyear": "1987",
+      "material": "Leather and Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "Nike002",
+    "brand":"Nike",
+    "name": "Air Force 1",
+    "shortDescription": "Un ícono del baloncesto y la cultura.",
+    "description": "El Nike Air Force 1 ha sido un pilar en la cultura de las zapatillas, siendo adorado tanto en las canchas como en las calles.",
+    "imageUrl": "https://th.bing.com/th/id/OIG._eXLvUFm36dVBnqnHHY_?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "modelyear": "1982",
+      "material": "Leather",
+      "color": "white"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "Nike003",
+    "brand":"Nike",
+    "name": "SB Dunk",
+    "shortDescription": "Del baloncesto al skate.",
+    "description": "Originalmente lanzado como una zapatilla de baloncesto, el Nike SB Dunk se reinventó para el skateboarding.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.lUJX.Ex.3EhCR6xSsxJk?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "modelyear": "2002",
+      "material": "Leather and Suede",
+      "color": "black"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "Nike004",
+    "brand": "Nike",
+    "name":"React Element",
+    "shortDescription": "Confort y estilo moderno.",
+    "description": "Combina una estética futurista con la tecnología React de Nike para un confort inigualable.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.1EMC47gmrODKRgDr64er?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "modelyear": "2018",
+      "material": "Synthetic and Mesh",
+      "color": "blue"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "Nike005",
+    "brand": "Nike",
+    "name": "Air VaporMax",
+    "shortDescription": "Revolución Air al máximo.",
+    "description": "El Nike Air VaporMax lleva la tecnología Air Max al siguiente nivel.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.H8Z1HiXR820f7kWZR.QH?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "modelyear": "2017",
+      "material": "Flyknit",
+      "color": "multicolor"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "Adidas001",
+    "brand": "Adidas",
+    "name": "Superstar",
+    "shortDescription": "El ícono del estilo urbano.",
+    "description": "El Adidas Superstar ha sido un referente en la moda urbana, caracterizado por su puntera de goma y las tres rayas laterales.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.JzuIYBy0wD0h6CO9_ZHZ?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "modelyear": "1969",
+      "material": "Leather",
+      "color": "white"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "Adidas002",
+    "brand": "Adidas",
+    "name": "Ultraboost",
+    "shortDescription": "Innovación y confort en el running.",
+    "description": "Adidas Ultraboost combina la última tecnología en amortiguación con un diseño estilizado.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.lKRrSTM3C0i1SW8S4lI3?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "modelyear": "2015",
+      "material": "Primeknit",
+      "color": "black"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "Adidas003",
+    "brand": "Adidas",
+    "name": "NMD",
+    "shortDescription": "Diseño urbano futurista.",
+    "description": "Inspirado en la herencia de Adidas, el NMD combina estilo y confort con un diseño minimalista y tecnología de punta.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.iydZa_zBDUwLPPG.yaGa?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "modelyear": "2015",
+      "material": "Mesh and Primeknit",
+      "color": "black"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "Adidas004",
+    "brand": "Adidas",
+    "name": "Stan Smith",
+    "shortDescription": "El clásico tenis de Adidas.",
+    "description": "Nombrado en honor al tenista Stan Smith, este name se ha convertido en un ícono de la moda y el diseño.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.IC4pImZ0qKCWB2xQRyfD?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "modelyear": "1963",
+      "material": "Leather",
+      "color": "white"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "Adidas005",
+    "brand": "Adidas",
+    "name": "Gazelle",
+    "shortDescription": "El toque retro del fútbol de los 60.",
+    "description": "El Adidas Gazelle captura la esencia del fútbol de los años 60 con una silueta sencilla y una variedad de colores vibrantes.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.mHc2KlAu5JeXj2dXf74t?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "modelyear": "1966",
+      "material": "Suede",
+      "color": "black"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "Skechers001",
+    "brand": "Skechers",
+    "name": "D'Lites",
+    "shortDescription": "Comodidad clásica y estilo retro.",
+    "description": "Ofrece una silueta chunky con una plantilla Memory Foam para un confort superior.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.3ECGvFd0Nls0IyPNksY2?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "modelyear": "2000",
+      "material": "Leather and Mesh",
+      "color": "white"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "Skechers002",
+    "brand": "Skechers",
+    "name": "Go Walk",
+    "shortDescription": "Innovación en el caminar.",
+    "description": "La serie Go Walk de Skechers ha sido diseñada para proporcionar la máxima comodidad en tus caminatas diarias.",
+    "imageUrl": "https://th.bing.com/th/id/OIG._Cz82o_q8a2UDByuSOwW?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "modelyear": "2012",
+      "material": "Mesh",
+      "color": "blue"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "Skechers003",
+    "brand": "Skechers",
+    "name": "Bobs",
+    "shortDescription": "Estilo casual con causa.",
+    "description": "No solo ofrece comodidad y estilo, sino que también contribuye a causas benéficas con cada compra.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.AskXjNbC182bDrPAL7EO?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "modelyear": "2010",
+      "material": "Canvas",
+      "color": "multicolor"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "Skechers004",
+    "brand": "Skechers",
+    "name": "Work Relaxed Fit",
+    "shortDescription": "Protección y comodidad en el trabajo.",
+    "description": "Proporcionan la combinación perfecta de seguridad y confort para el ámbito laboral.",
+    "imageUrl": "https://th.bing.com/th/id/OIG..KFhHV_CFVnD_fzBupIZ?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "modelyear": "2014",
+      "material": "Leather",
+      "color": "white"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "Skechers005",
+    "brand": "Skechers",
+    "name": "Streetwear",
+    "shortDescription": "Tendencia urbana con confort.",
+    "description": "Ideal para aquellos que buscan un look contemporáneo en su día a día.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.x5a0FHfDFpsuZXXOoQ98?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "modelyear": "2018",
+      "material": "Leather and Suede",
+      "color": "multicolor"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "NewBalance001",
+    "brand": "New Balance",
+    "name": "990v5",
+    "shortDescription": "Heritage design meets modern comfort.",
+    "description": "Con su combinación perfecta de amortiguación y estilo, representa décadas de innovación.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.NK0TfbqcRgMK3MWcALSU?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "modelyear": "1982",
+      "material": "Suede and Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "NewBalance002",
+    "brand": "New Balance",
+    "name": "New Balance 574",
+    "shortDescription": "Iconic and versatile.",
+    "description": "Ofrece versatilidad para el uso diario con una combinación de estilo clásico y materiales innovadores.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.cSB8JsDYo.frHXNIRPX0?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "modelyear": "1988",
+      "material": "Suede and Mesh",
+      "gender": "Unisex",
+      "color": "multicolor"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "NewBalance003",
+    "brand": "New Balance",
+    "name": "Fresh Foam 1080v11",
+    "shortDescription": "Engineered for precision comfort.",
+    "description": "Su diseño moderno y su avanzada tecnología de amortiguación lo hacen destacar.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.aC2acTjd6XGuDlpilaYh?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "modelyear": "2021",
+      "material": "Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "NewBalance004",
+    "brand": "New Balance",
+    "name": "FuelCell Echo",
+    "shortDescription": "Energized speed for the fast.",
+    "description": "brindando una sensación de propulsión para ayudarlo a avanzar con cada paso.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.fiqIszCstPZokEng6DFN?w=270&h=270&c=6&r=0&o=5&pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "modelyear": "2020",
+      "material": "Knit",
+      "color": "multicolor"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "NewBalance005",
+    "brand": "New Balance",
+    "name": "X-90 Reconstructed",
+    "shortDescription": "Inspired by the 90s, built for today.",
+    "description": "The X-90 Reconstructed draws inspiration from the 90s New Balance series, providing a retro look combined with modern features and comfort.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.GcP3e1_yGs2wlXG1F8SY?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "modelyear": "2019",
+      "material": "Suede and Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "ASICS001",
+    "brand": "Asics",
+    "name": "GEL-Kayano 27",
+    "shortDescription": "Estabilidad y confort en cada paso.",
+    "description": "Ofrece la máxima estabilidad y confort en carreras largas.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.QsJJFhTlr9yObX_S3_Et?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "modelyear": "2020",
+      "material": "Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "ASICS002",
+    "brand": "Asics",
+    "name": "GEL-Nimbus 23",
+    "shortDescription": "Amortiguación premium para corredores.",
+    "description": "Ofrece un rendimiento duradero y un confort excepcional para los corredores de larga distancia.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.5jwYun5A2ax_fdBCjulE?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "modelyear": "2021",
+      "material": "Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "ASICS003",
+    "brand": "Asics",
+    "name": "GEL-Cumulus 22",
+    "shortDescription": "Para corredores neutros.",
+    "description": "Ofrece un ajuste suave y una transición flexible, con la conocida amortiguación GEL de ASICS.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.oPRiQOAlDlXObCJF23on?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "modelyear": "2020",
+      "material": "Mesh",
+      "color": "multicolor"
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "ASICS004",
+    "brand": "Asics",
+    "name": "GT-2000 9",
+    "shortDescription": "Estabilidad y sujeción en la carrera.",
+    "description": "Su diseño y tecnología ofrecen un apoyo superior sin sacrificar la comodidad.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.TwRDyWkWcmhKKN5n8r7F?pid=ImgGn",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
+      "modelyear": "2020",
+      "material": "Mesh",
+      "color": "multicolor"
     }
+  },
+  {
+    "id": "PUMA001",
+    "brand": "Puma",
+    "name": "Clyde",
+    "shortDescription": "Clásico del baloncesto de los 70.",
+    "description": "Combina un estilo vintage con comodidad moderna, siendo un clásico adorado tanto en las canchas como en las calles.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.vXdgGM8Vs3KkJjlBfAAx?pid=ImgGn",
+    "facts": {
+      "modelyear": "1973",
+      "material": "Leather",
+      "color": "black"
+    }
+  },
+  {
+    "id": "PUMA002",
+    "brand": "Puma",
+    "name": "RS-X³",
+    "shortDescription": "Redefiniendo el estilo retro.",
+    "description": "Combina con un diseño futurista, creando un modelo que es a la vez nostálgico y moderno.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.4itLMHcYZhVSdgZ3GjOv?pid=ImgGn",
+    "facts": {
+      "modelyear": "2019",
+      "material": "Mesh and Leather",
+      "color": "multicolor"
+    }
+  },
+  {
+    "id": "PUMA003",
+    "brand": "Puma",
+    "name": "Future Rider",
+    "shortDescription": "Herencia de running con toque moderno.",
+    "description": "Combina un diseño inspirado en los 80 con tecnologías actuales.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.zoBNmJ2tr_fPEOIUarUn?pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Nylon and Suede",
+      "color": "grey"
+    }
+  },
+  {
+    "id": "PUMA004",
+    "brand": "Puma",
+    "name": "Thunder Spectra",
+    "shortDescription": "Silueta chunky y audaz.",
+    "description": "Toma inspiración de los archivos de running y lo lleva al límite con su diseño chunky y audaz.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.6xRJBUNq6hPwnrPd3m2w?pid=ImgGn",
+    "facts": {
+      "modelyear": "2018",
+      "material": "Mesh and Leather",
+      "color": "blue"
+    }
+  },
+  {
+    "id": "PUMA005",
+    "brand": "Puma",
+    "name": "Suede Classic",
+    "shortDescription": "El icono de PUMA.",
+    "description": "Su diseño sencillo y su construcción de gamuza de alta calidad lo han convertido en un favorito a lo largo de las décadas.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.xy0EpUxgdKF6ep4z7rwQ?pid=ImgGn",
+    "facts": {
+      "modelyear": "1968",
+      "material": "Suede",
+      "color": "brown"
+    }
+  },
+  {
+    "id": "Reebok001",
+    "brand": "Reebok",
+    "name": "Classic Leather",
+    "shortDescription": "El eterno clásico de Reebok.",
+    "description": "Ofrece un diseño atemporal y confort duradero. Su versatilidad lo ha hecho popular tanto en las calles como en el gimnasio.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.0ZVpEiI_mFpnTIRkn14A?pid=ImgGn",
+    "facts": {
+      "modelyear": "1983",
+      "material": "Leather",
+      "color": "brown"
+    }
+  },
+  {
+    "id": "Reebok002",
+    "brand": "Reebok",
+    "name": "InstaPump Fury",
+    "shortDescription": "Tecnología y estilo audaz.",
+    "description": "Se destaca por su diseño único y su sistema de inflado personalizable, ofreciendo un ajuste perfecto y una estética inconfundible.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.MkzFKSOtUnAAF1oG3.IH?pid=ImgGn",
+    "facts": {
+      "modelyear": "1994",
+      "material": "Synthetic",
+      "color": "black"
+    }
+  },
+  {
+    "id": "Reebok003",
+    "brand": "Reebok",
+    "name": "Club C 85",
+    "shortDescription": "Simplicidad y elegancia en una zapatilla.",
+    "description": "Ideal tanto para el deporte como para el uso diario.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.OB3yFq2novssEvztlYok?pid=ImgGn",
+    "facts": {
+      "modelyear": "1985",
+      "material": "Leather",
+      "color": "white"
+    }
+  },
+  {
+    "id": "Reebok004",
+    "brand": "Reebok",
+    "name": "Zig Kinetica",
+    "shortDescription": "Innovación en amortiguación y estilo.",
+    "description": "Su diseño moderno y funcionalidades avanzadas lo hacen ideal para un rendimiento óptimo.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.laC_C7.qR0KPjPbj98GN?pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Mesh and Synthetic",
+      "color": "black"
+    }
+  },
+  {
+    "id": "Reebok005",
+    "brand": "Reebok",
+    "name": "Question Mid",
+    "shortDescription": "El legado de Allen Iverson.",
+    "description": "Su diseño distintivo y su rendimiento en la cancha lo han hecho un favorito entre muchos.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.3wTpdoWiIHAn6C5yIuJ5?pid=ImgGn",
+    "facts": {
+      "modelyear": "1996",
+      "material": "Leather",
+      "color": "grey"
+    }
+  },
+  {
+    "id": "Fila001",
+    "brand": "Fila",
+    "name": "Disruptor",
+    "shortDescription": "Diseño audaz y estilo retro.",
+    "description": "Estos zapatos son perfectos para aquellos que buscan destacar en la moda urbana.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.MoYbGzcI5NV9Z._.ff1G?pid=ImgGn",
+    "facts": {
+      "modelyear": "1996",
+      "material": "Cuero/Sintético",
+      "color": "white"
+    }
+  },
+  {
+    "id": "Fila002",
+    "brand": "Fila",
+    "name": "Ray",
+    "shortDescription": "Un estilo retro reinventado.",
+    "description": "Con su diseño colorido y llamativo, son ideales para aquellos que aman el estilo retro con un toque contemporáneo.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.IJB6uKNRyzOszeL2prIy?pid=ImgGn",
+    "facts": {
+      "modelyear": "2018",
+      "material": "Textil/Sintético",
+      "color": "pink"
+    }
+  },
+  {
+    "id": "Fila003",
+    "brand": "Fila",
+    "name": "Venom",
+    "shortDescription": "Un clásico de los años 90.",
+    "description": "Su diseño retro y su construcción de alta calidad los convierten en una opción elegante y cómoda para cualquier ocasión.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.U86x7yqafYLL0j52Srqv?pid=ImgGn",
+    "facts": {
+      "modelyear": "1994",
+      "material": "Cuero/Sintético",
+      "color": "black"
+    }
+  },
+  {
+    "id": "HokaOneOne001",
+    "brand": "Hoka One One",
+    "name": "Clifton 7",
+    "shortDescription": "Comodidad y rendimiento excepcionales.",
+    "description": "Con su diseño ligero y su amortiguación suave, es una elección popular entre los corredores de larga distancia.",
+    "imageUrl": "https://th.bing.com/th/id/OIG.pfzbb.RTedASRo.Cq2iQ?pid=ImgGn",
+    "facts": {
+      "modelyear": "2020",
+      "material": "Malla/Sintético",
+      "color": "grey" 
   }
+},
+{
+  "id": "HokaOneOne002",
+  "brand": "Hoka One One",
+  "name": "Bondi 7",
+  "shortDescription": "Máximo confort en cada paso.",
+  "description": "Es perfecto para quienes buscan una experiencia de carrera cómoda y de apoyo.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.rVsmN3yeop1Yp44egt9y?pid=ImgGn",
+  "facts": {
+    "modelyear": "2020",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+}
+},
+{
+  "id": "HokaOneOne003",
+  "brand": "Hoka One One",
+      "name": "Speedgoat 4",
+      "shortDescription": "Rendimiento en terrenos difíciles.",
+      "description": "Con una suela exterior de gran tracción y una construcción resistente, es una elección sólida para trail running y aventuras al aire libre.",
+      "imageUrl": "https://th.bing.com/th/id/OIG.0tglc.NuxOh4MRUMF93D?pid=ImgGn",
+      "facts": {
+        "modelyear": "2020",
+        "material": "Malla/Sintético",
+        "color": "green"
+      }
+},
+{
+  "id": "Salomon001",
+  "brand": "Salomon",
+  "name": "SSpeedcross 5",
+  "shortDescription": "Rendimiento en terrenos difíciles.",
+  "description": "Con su suela de gran tracción y su construcción resistente, es una elección sólida para aquellos que disfrutan de las aventuras al aire libre.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.CuvZEsfF6HndeIOTrmdl?pid=ImgGn",
+  "facts": {
+    "modelyear": "2019",
+    "material": "Textil/Sintético",
+    "color": "black"
+  }
+},
+{
+  "id": "Salomon002",
+  "brand": "Salomon",
+  "name": "X Ultra 3",
+  "shortDescription": "Comodidad y versatilidad en senderismo.",
+  "description": "Su diseño ligero y su suela exterior con buen agarre lo hacen adecuado para una variedad de actividades al aire libre.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.VpHKbIJVC1cq9icqGRSu?pid=ImgGn",
+  "facts": {
+    "modelyear": "2018",
+    "material": "Cuero/Sintético",
+    "color": "grey"
+  }
+},
+{
+  "id": "Salomon003",
+  "brand": "Salomon",
+  "name": "Sense Ride 4",
+  "shortDescription": "Comodidad en carrera de trail.",
+  "description": "Con una amortiguación suave y una parte superior transpirable, brinda comodidad en cada paso.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.37qeRWHp6I3ALp_Ub5R9?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Textil/Sintético",
+    "color": "blue"
+  }
+},
+{
+  "id": "AltraFootwear001",
+  "brand": "Altra Footwear",
+  "name": "Escalante",
+  "shortDescription": "Comodidad y estilo para corredores.",
+  "description": "Con su diseño ligero y su plataforma Zero Drop, proporcionan una experiencia de carrera natural.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.jFCnXMk_jXoRkJ3qGTKw?pid=ImgGnE",
+  "facts": {
+    "modelyear": "2017",
+    "material": "Malla",
+    "color":  "green"
+  }
+},
+{
+  "id": "AltraFootwear002",
+  "brand": "Altra Footwear",
+  "name": "Lone Peak",
+  "shortDescription": "Zapato de trail versátil.",
+  "description": "Con su amplia puntera y su suela MaxTrac, son ideales para aventuras en senderos y actividades al aire libre.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.AiIgMQrETtaGsXi.u.4B?pid=ImgGn",
+  "facts": {
+    "modelyear": "2019",
+    "material": "Malla/Sintético",
+    "color": "grey"
+  }
+},
+{
+  "id": "AltraFootwear003",
+  "brand": "Altra Footwear",
+  "name": "Olympus",
+  "shortDescription": "Máxima amortiguación en trail running.",
+  "description": "Con su suela Vibram MegaGrip y su amplia puntera, brindan comodidad y agarre en terrenos difíciles.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.a7pyuN94js0zZLrkyxTC?pid=ImgGn",
+  "facts": {
+    "modelyear": "2020",
+    "material": "Malla/Sintético",
+    "color":"blue"
+  }
+},
+{
+  "id": "NewtonRunning001",
+  "brand": "Newton Running",
+  "name": "Gravity 10",
+  "shortDescription": "Comodidad y velocidad para corredores.",
+  "description": "Son conocidos por proporcionar comodidad y velocidad a los corredores.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.vC1vJ0QI4FSY.cBRfroe?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+  }
+},
+{
+  "id": "NewtonRunning002",
+  "brand": "Newton Running",
+  "name": "Fate 7",
+  "shortDescription": "Amortiguación y estabilidad para corredores.",
+  "description": "Son ideales para quienes buscan una experiencia de carrera suave y apoyo.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.JzRNxr76TPNkdW24KUKW?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+  }
+},
+{
+  "id": "NewtonRunning003",
+  "brand": "Newton Running",
+  "name": "Motion 10",
+  "shortDescription": "Apoyo y comodidad en cada paso.",
+  "description": "Son ideales para corredores que buscan una experiencia de carrera equilibrada.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.RjJYDeyNoPKhwo6n.FZC?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "white"
+  }
+},
+{
+  "id": "Brooks001",
+  "brand": "Brooks",
+  "name": "Ghost 14",
+  "shortDescription": "Comodidad y versatilidad para corredores.",
+  "description": "Son ideales para quienes buscan un zapato versátil para entrenamiento y carreras.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.q5TFGo1uOwLqszDmMkcu?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color":"multicolor"
+  }
+},
+{
+  "id": "Brooks002",
+  "brand": "Brooks",
+  "name": "Adrenaline GTS 22",
+  "shortDescription": "Apoyo y estabilidad para corredores.",
+  "description": "Son ideales para quienes buscan control de pronación y comodidad en sus carreras.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.T5NzMIDpTsYzOM9llJ9L?pid=ImgGn",
+  "facts": {
+    "modelyear": "2022",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+  }
+},
+{
+  "id": "Brooks003",
+  "brand": "Brooks",
+  "name": "Launch 8",
+  "shortDescription": "Zapato ligero para corredores neutros.",
+  "description": "Con su diseño rápido y su amortiguación energizante, son perfectos para carreras rápidas.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.hrDPq9CRqhhguvIPwcbZ?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "black"
+  }
+},
+{
+  "id": "Saucony001",
+  "brand": "Saucony",
+  "name": "Kinvara 12",
+  "shortDescription": "Comodidad y velocidad para corredores.",
+  "description": "Con su diseño ligero y su amortiguación reactiva, son ideales para aquellos que buscan un zapato versátil.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.qeS94GsD4i7ksGd56Kue?pid=ImgGn",
+  "facts": {
+    "modelyear": "2022",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+  }
+},
+{
+  "id": "Saucony002",
+  "brand": "Saucony",
+  "name": "Guide 14",
+  "shortDescription": "Apoyo y estabilidad para corredores.",
+  "description": "Con su construcción de alta calidad, son ideales para quienes buscan control de pronación y comodidad.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.z.a0evbvtr99zlngBbXa?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "black"
+  }
+},
+{
+  "id": "Saucony003",
+  "brand": "Saucony",
+  "name": "Peregrine 11",
+  "shortDescription": "Zapato de trail versátil.",
+  "description": "Con su suela PWRTRAC y su construcción resistente, son ideales para aventuras en senderos.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.d9i97KpCcocXu.OoHnTE?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "grey"
+  }
+},
+{
+  "id": "mizuno001",
+  "brand": "Mizuno",
+  "name": "Wave Rider 25",
+  "shortDescription": "Comodidad y rendimiento para corredores.",
+  "description": "Con su tecnología Wave y su diseño ligero, son ideales para aquellos que buscan un zapato versátil para entrenamiento.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.BmXtTguShoqA.UN.Xlln?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "blue"
+  }
+},
+{
+  "id": "Mizuno002",
+  "brand": "Mizuno",
+  "name": "MWave Inspire 17",
+  "shortDescription": "Apoyo y estabilidad para corredores.",
+  "description": "Son ideales para quienes buscan control de pronación y comodidad en sus carreras.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.qXWyw6bHyzlWP3bPBLqu?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "orange"
+  }
+},
+{
+  "id": "Mizuno003",
+  "brand": "Mizuno",
+  "name": "Wave Hayate 7",
+  "shortDescription": "Zapato de trail versátil.",
+  "description": "Con su suela Michelin y su construcción resistente, son ideales para aventuras en senderos.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.._7Z9osXCYjMA6.RaOpM?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "multicolor"
+  }
+},
+{
+  "id": "Merrell001",
+  "brand": "Merrel",
+  "name": "Moab 2 Ventilator",
+  "shortDescription": "Zapato versátil para senderismo.",
+  "description": "Con su diseño transpirable y su suela Vibram, son ideales para caminatas y senderismo en terrenos variados.",
+  "imageUrl": "https://th.bing.com/th/id/OIG..H7SnjoSQl2V4nzHX03w?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Cuero/Sintético",
+    "color": "brown"
+  }
+},
+{
+  "id": "Merrell002",
+  "brand": "Merrel",
+  "name": "All Out Blaze Aero Sport",
+  "shortDescription": "Zapato de agua y senderismo.",
+  "description": "Con su diseño de secado rápido y su suela con tracción, son perfectos para aventuras en agua y terrenos húmedos.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.bkE0QajWCsq5WtRParzr?pid=ImgGn",
+  "facts": {
+    "modelyear": "2021",
+    "material": "Malla/Sintético",
+    "color": "black"
+  }
+},
+{
+  "id": "Merrell003",
+  "brand": "Merrel",
+  "name": "Jungle Moc",
+  "shortDescription": "Comodidad casual en la ciudad o en la naturaleza.",
+  "description": "Con su diseño deslizable y su suela antideslizante, son ideales para el uso diario y actividades al aire libre.",
+  "imageUrl": "https://th.bing.com/th/id/OIG.OHXYNdmsYSnqDq9..DsU?pid=ImgGn",
+  "facts": {
+    "modelyear": "2020",
+    "material": "Cuero/Sintético",
+    "color": "brown"
+  }
+},
 ];

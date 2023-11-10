@@ -1,11 +1,73 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Athleisure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <h1> ATHLEISURE, <br>¡Estilo cómodo y vanguardista!</h1>
+  </header>
+
+  <nav> 
+  <label for="menu">☰</label>
+  <input id="menu" type="checkbox" >
+  <div>
+  <section> 
+  <label for="data-testid" >Filtrar por Marca:</label>
+  <select  id="data-testid" data-testid="select-filter" name="brand" title="Desplegable de filtrado por marca">
+  <option value="allbrands">All Brands</option>
+  <option value="Nike">Nike</option>
+  <option value="Adidas">Adidas</option>
+  <option value="Skechers">Skechers</option>
+  <option value="New Balance">New Balance</option>
+  <option value="Asics">Asics</option>
+  <option value="Puma">Puma</option>
+  <option value="Reebok">Reebok</option>
+  <option value="Fila">Fila</option>
+  <option value="Hoka One One">Hoka One One</option>
+  <option value="Salomon">Salomon</option>
+  <option value="Altra Footwear">Altra Footwear</option>
+  <option value="Newton Running">Newton Running</option>
+  <option value="Brooks">Brooks</option>
+  <option value="Salomon">Saucony</option>
+  <option value="Mizuno">Mizuno</option>
+  <option value="Merrel">Merrel</option>
+</select>
+<label for="color" >Filtrar por Color:</label>
+<select id="color" name="color" data-testid="select-filter" >
+<option value="allcolors">All Colors</option>
+<option value="white">white</option>
+<option value="black">black</option>
+<option value="green">green</option>
+<option value="multicolor">multicolor</option>
+<option value="blue">blue</option>
+<option value="grey">grey</option>
+<option value="brown">brown</option>
+<option value="pink">pink</option>
+</select>
+<label for="ordenar" >Ordenar por:</label>
+  <select id="ordenar" name="ordenar" data-testid="select-sort" title="Desplegable de ordenado por modelo">
+    <option value="todos">All</option>
+    <option value="asc">A - Z Modelo ascendente</option>
+    <option value="desc">Z - A Modelo descendente</option>
+  </select>
+</section>
+<button id="button-clear" title="Boton para restablecer los datos de la pagina">Limpiar</button>
+</div>
+</nav>
+<label for="year">Año con más modelos:</label>
+<p id="year"></p>
+<section id="dato"></section>
+  <div id="root" class="tarjeta"></div>
+  <footer> Devs Rosa and Emma </footer>
+  <script src="./main.js" type="module"></script>
+</body>
+
 </html>

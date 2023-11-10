@@ -14,6 +14,9 @@ const resetButton = document.querySelector('[data-testid="button-clear"]');
 // Selecciona el elemento del DOM donde se mostrarán las tarjetas
 const rootElement = document.querySelector("#root");
 
+// Se Muestran estadisticas
+const statsElement = document.getElementById("statistics");
+
 // Agrega las tarjetas iniciales al elemento root
 rootElement.appendChild(renderItems(data));
 
@@ -39,6 +42,10 @@ const filterAndRenderData = () => {
   // Limpia el contenido actual y muestra las tarjetas filtradas
   rootElement.innerHTML = "";
   rootElement.appendChild(renderItems(filteredData));
+  // Estadisticas
+  statsElement.innerHTML = `
+ <p>Total de tarjetas: ${filteredData.length}</p>
+ `;
 };
 
 // Agrega manejadores de eventos para cambios en los selectores

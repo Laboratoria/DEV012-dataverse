@@ -47,3 +47,4 @@ describe("Statistics Computation", () => {
     expect(stats.totalItems).toBe(data.length);
   });
 });
+

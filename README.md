@@ -24,7 +24,6 @@ las usuarias, necesitamos entender y procesar estos datos. Una manera simple de
 hacerlo es creando *interfaces* y *visualizaciones*.
 Este proyecto ha sido desarrollado bajo el marco de aprendizaje del bootcamp de Laboratoria. Como segundo proyecto en duplas, tiene la finalidad de enzeñarnos a cómo manipular de manera más dinámica el DOM mediante la creación de elementos HTML mediante el uso de Javascript, así como trabajar de manera colaborativa mediante Git y GitHub.
 
-
 ## 2. Creación de data mediante uso de IA
 
 En este proyecto **se construyo una *página web* para visualizar un
@@ -36,7 +35,7 @@ En este proyecto se utilizó la herramienta de
 para generar un set de datos.
 
 Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente:
-![Esta es una imagen de ejemplo](https://files.slack.com/files-pri/T0NNB6T0R-F065YS0DM40/image.png)
+
 ![image](https://github.com/saraAdelaSaldarriagaRomero/DEV012-dataverse/assets/143374716/5bd0eeb3-acde-4f9e-a574-3ed5cc2ff4f7)
 
 
@@ -55,18 +54,16 @@ filtrarla, ordenarla y calcular una estadística**.
 ## 3. Historias de usuarias
 La historia de usuari@ nos permitió tener una guia en la planificacion de los sprints dividiendola en tareas, estas historias las fuimos organizando en Trello como guía para la planificación de las tareas durante los sprints.
 
-
-
 ## 4. Diseño de la página y responsive
 
 Para el diseño, se utilizó una herramienta de diseño (Figma) para crear los prototipos de mobile y desktop. Este diseño se fué 
 modificado al recibir feedback de nuestras compañeras.
 C:\Users\saraa\OneDrive\Escritorio\responsive desktop.png
 C:\Users\saraa\OneDrive\Escritorio\responsive mobile.png
+
 Trabajamos con colores amarillos para mantener el concepto de la paleta de colores de las abejas con un diseño minimalista sin
 distracciones, dando el resultado final como se muestra la app en el navegador.
-C:\Users\saraa\OneDrive\Escritorio\desktop navegador.png
-
+![image](https://github.com/saraAdelaSaldarriagaRomero/DEV012-dataverse/assets/143374716/d0d30b40-7d11-49e9-9316-59c69e47d726)
 
 ### Pruebas unitarias
 
@@ -76,7 +73,6 @@ Este proyecto no incluian las Pruebas Unitarias (*tests*), así que se crearon c
 Las *pruebas unitarias*  dan una cobertura del 100% de *statements*
 (*sentencias*), *functions* (*funciones*), *lines* (*líneas*), y *branches*
 (*ramas*) del archivo `src/dataFunctions.js` que contiene las funciones.
-
 
 ## 5. Herramientas
 

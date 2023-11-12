@@ -36,7 +36,7 @@ En este proyecto se utilizó la herramienta de
 para generar un set de datos.
 
 Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente:
-https://files.slack.com/files-pri/T0NNB6T0R-F065YS0DM40/image.png
+![Esta es una imagen de ejemplo](https://files.slack.com/files-pri/T0NNB6T0R-F065YS0DM40/image.png)
 
 Le dimos una seríe de instrucciones tomando en cuanta la estructura que queriamos que tuviera la base de datos.
 La data que nos proporcionó la IA quedó de la siguiente manera:

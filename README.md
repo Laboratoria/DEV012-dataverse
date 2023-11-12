@@ -58,8 +58,8 @@ La historia de usuari@ nos permitió tener una guia en la planificacion de los s
 
 Para el diseño, se utilizó una herramienta de diseño (Figma) para crear los prototipos de mobile y desktop. Este diseño se fué 
 modificado al recibir feedback de nuestras compañeras.
-C:\Users\saraa\OneDrive\Escritorio\responsive desktop.png
-C:\Users\saraa\OneDrive\Escritorio\responsive mobile.png
+![image](https://github.com/saraAdelaSaldarriagaRomero/DEV012-dataverse/assets/143374716/f545ae83-7796-445a-904b-fa5d52820f2b)
+![image](https://github.com/saraAdelaSaldarriagaRomero/DEV012-dataverse/assets/143374716/91995126-1fc7-4366-b031-435fe5495292)
 
 Trabajamos con colores amarillos para mantener el concepto de la paleta de colores de las abejas con un diseño minimalista sin
 distracciones, dando el resultado final como se muestra la app en el navegador.

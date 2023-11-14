@@ -63,10 +63,10 @@ modificado al recibir feedback de nuestras compañeras.
 
 Trabajamos con colores amarillos para mantener el concepto de la paleta de colores de las abejas con un diseño minimalista sin
 distracciones, dando el resultado final como se muestra la app en el navegador.
-C:\Users\saraa\OneDrive\Escritorio\desktop navegador.png
+
 ![Alt text](image.png)
 ![Alt text](image-1.png)
-C:\Users\saraa\OneDrive\Escritorio\imagen diseño responsive mobile.png
+
 
 ### Pruebas unitarias
 

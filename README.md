@@ -36,7 +36,8 @@ En este proyecto se utilizó la herramienta de
 para generar un set de datos.
 
 Un ejemplo de las directrices entregadas a la IA de ChatGPT fue la siguiente:
-![Esta es una imagen de ejemplo](https://files.slack.com/files-pri/T0NNB6T0R-F065YS0DM40/image.png)
+![image](https://github.com/DolB612/DEV012-dataverse/assets/143374716/6a60f39f-285c-4440-b31a-9e3b384da858)
+
 
 Le dimos una seríe de instrucciones tomando en cuanta la estructura que queriamos que tuviera la base de datos.
 La data que nos proporcionó la IA quedó de la siguiente manera:
@@ -59,8 +60,10 @@ La historia de usuari@ nos permitió tener una guia en la planificacion de los s
 
 Para el diseño, se utilizó una herramienta de diseño (Figma) para crear los prototipos de mobile y desktop. Este diseño se fué 
 modificado al recibir feedback de nuestras compañeras.
-C:\Users\saraa\OneDrive\Escritorio\responsive desktop.png
-C:\Users\saraa\OneDrive\Escritorio\responsive mobile.png
+![image](https://github.com/DolB612/DEV012-dataverse/assets/143374716/b218f599-1d59-401a-822c-0e4c33cd677a)
+![image](https://github.com/DolB612/DEV012-dataverse/assets/143374716/d46ff2ce-15b8-47c4-a688-1522ef54ec2b)
+
+
 Trabajamos con colores amarillos para mantener el concepto de la paleta de colores de las abejas con un diseño minimalista sin
 distracciones, dando el resultado final como se muestra la app en el navegador.
 C:\Users\saraa\OneDrive\Escritorio\desktop navegador.png

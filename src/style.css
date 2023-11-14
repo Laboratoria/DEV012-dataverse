@@ -93,8 +93,8 @@ ul {
 }
 
 .imgTarjeta {
-  width: 280px;
-  height: 280px;
+  width: 400px;
+  height: 400px;
   display: block;
   margin: 0 auto;
   margin-top: 20px;
@@ -108,7 +108,7 @@ ul {
   border: 4px solid rgb(226, 165, 8);
   list-style: none;
   margin: 5px;
-  height: 900px;
+  height: 1100px;
   float: left;
   padding: 10px; /* Añade espacio interno a las tarjetas */
   width: calc(25% - 10px);
@@ -116,33 +116,31 @@ ul {
   box-sizing: border-box;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 18px;
+  font-size: 22px;
   font-family: "Quicksand", sans-serif;
   color: #333333;
   overflow: hidden; /* Evita que el contenido se desborde */
   white-space: nowrap; /* Evita que el contenido se desborde */
   text-overflow: ellipsis; /* Agrega elipsis si el contenido se desborda */
 }
-
-/* Eliminar márgenes y rellenos predeterminados */
-dl,
 dd {
-  margin: 0;
-  padding: 0;
+  white-space: normal;
+  overflow: visible;
+  max-width: 100%;
 }
-
-dd {
+dt {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
   display: flex;
-  border-radius: 10px;
-  margin: 10px;
-  padding: 10px;
-  text-align: center;
-  max-width: 90%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  
 }
+
 
 /* Estilo para texto con elipsis */
 .estilo {
@@ -154,14 +152,7 @@ dd {
   display: flex;
 }
 
-/* Estilo para encabezados de lista */
-dt {
-  display: flex;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
+
 /* Estilo para el footer */
 footer {
   background-color: rgb(
@@ -171,8 +162,8 @@ footer {
   ); /* Cambia el color de fondo del footer a gris oscuro */
   color: rgb(232, 229, 222); /* Cambia el color de texto a blanco */
   text-align: center;
-  padding: 10px; /* Añade un espacio interior al footer */
-  font-size: 18px;
+  padding: 30px; /* Añade un espacio interior al footer */
+  font-size: 30px;
   font-family: "Quicksand", sans-serif;
 }
 
@@ -187,9 +178,9 @@ footer p {
     width: calc(50% - 10px);
     box-sizing: border-box;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
 
   li {
@@ -232,7 +223,7 @@ footer p {
     width: calc(100% - 10px);
     box-sizing: border-box;
     margin-bottom: 10px;
-    text-align: center;
+    text-align: left;
     display: block;
   }
 

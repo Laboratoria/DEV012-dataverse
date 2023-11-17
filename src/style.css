@@ -1,0 +1,246 @@
+/* Estilos para el encabezado */
+header {
+  margin-left: 50px;
+  text-align: left;
+  font-size: 40px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 50px;
+  color: rgb(226, 165, 8);
+}
+
+/* Estilos para subtítulos */
+h2 {
+  text-align: left;
+  margin-left: 50px;
+  font-size: 40px;
+}
+
+#statistics {
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+  height: 50px; /* Ajusta la altura según tus necesidades */
+  padding: 0px; /* Espaciado interno del contenido dentro del div */
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total del div */
+  text-align: centerleft; /* Alineación del texto al centro, puedes ajustarlo según tus necesidades */
+  font-family: Arial, sans-serif; /* Tipo de fuente, puedes cambiarlo según tus preferencias */
+  font-size: 40px;
+  color: rgb(
+    226,
+    165,
+    8
+  ); /* Color del texto, puedes ajustarlo según tus preferencias */
+}
+
+/* Estilos para imágenes */
+img {
+  width: 80%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Estilos para el aside */
+aside {
+  padding-left: 15px;
+  margin-right: 15px;
+  font-family: Arial, sans-serif;
+  display: block;
+}
+
+/* Estilos para etiquetas */
+label {
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+/* Estilo para los elementos 'select' */
+select {
+  padding: 5px;
+  font-size: 20px;
+  border: 1px solid rgb(226, 165, 8);
+  border-radius: 4px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+/* Estilo para el botón */
+button {
+  padding: 10px 15px;
+  font-size: 20px;
+  background-color: rgb(226, 165, 8);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+ul {
+  text-align: center;
+  width: 100%;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgTarjeta {
+  width: 400px;
+  height: 400px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10%;
+  border: 3px solid rgb(238, 238, 240);
+}
+
+/* Tarjetas */
+.tarjetas {
+  border-radius: 10px;
+  border: 4px solid rgb(226, 165, 8);
+  list-style: none;
+  margin: 5px;
+  height: 1100px;
+  float: left;
+  padding: 10px; /* Añade espacio interno a las tarjetas */
+  width: calc(25% - 10px);
+  text-align: left; /* Alinea el texto a la izquierda */
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 22px;
+  font-family: "Quicksand", sans-serif;
+  color: #333333;
+  overflow: hidden; /* Evita que el contenido se desborde */
+  white-space: nowrap; /* Evita que el contenido se desborde */
+  text-overflow: ellipsis; /* Agrega elipsis si el contenido se desborda */
+}
+dd {
+  white-space: normal;
+  overflow: visible;
+  max-width: 100%;
+}
+dt {
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  display: flex;
+  width: 100%;
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+  
+}
+
+
+/* Estilo para texto con elipsis */
+.estilo {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-height: 1.2;
+  max-height: 3.6em;
+  display: flex;
+}
+
+
+/* Estilo para el footer */
+footer {
+  background-color: rgb(
+    226,
+    165,
+    8
+  ); /* Cambia el color de fondo del footer a gris oscuro */
+  color: rgb(232, 229, 222); /* Cambia el color de texto a blanco */
+  text-align: center;
+  padding: 30px; /* Añade un espacio interior al footer */
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* Estilo para los nombres en el footer */
+footer p {
+  margin: 0;
+}
+
+/* Estilos responsivos */
+@media (max-width: 912px) {
+  .tarjetas {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+  }
+
+  li {
+    width: 100%;
+    margin: 0;
+    white-space: normal;
+    overflow: visible;
+  }
+
+  .imgTarjeta {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20%;
+  }
+
+  .estilo {
+    white-space: normal;
+    text-overflow: clip;
+  }
+
+  dd {
+    white-space: normal;
+    overflow: visible;
+    max-width: 100%;
+  }
+
+  dt {
+    white-space: normal;
+    overflow: visible;
+    max-width: 100%;
+  }
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 600px) {
+  .tarjetas {
+    width: calc(100% - 10px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    text-align: left;
+    display: block;
+  }
+
+  /* Estilos para los controles en dispositivos móviles */
+  .controles {
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  select,
+  button {
+    width: 100%;
+    margin: 5px 0; /* Añade margen inferior para separar los controles */
+  }
+
+  /* Estilo para el botón de borrar en dispositivos móviles */
+  .boton-borrar {
+    background-color: rgb(226, 165, 8); /* Cambia el color de fondo a rojo */
+  }
+}

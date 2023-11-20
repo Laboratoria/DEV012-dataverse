@@ -1,0 +1,168 @@
+*{
+    margin: 2px;
+    padding: 3px;
+}
+header {
+    margin: auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:bisque;
+    padding: 10px; /* Agrega relleno si es necesario */
+}
+@media (max-width: 768px) {
+    header {
+    padding: 10px;
+    font-size: 16px;
+    }
+}
+
+body {
+    background:url('./images/fondo7.jpg')no-repeat center center fixed;
+    background-size: cover;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.container {
+    width: 90%; /*para que sea responsive*/
+    margin: 20px auto;
+    max-width: 1200px;
+    position: relative;
+}
+.tarjeta {
+  
+  background-color: rgba(40, 135, 159, 0.2);
+  margin-bottom: 10px;
+  margin-top: 100px;
+  text-align: center;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 15px; /* Bordes redondeados */
+  display: flexbox; /*con esto la pantalla se ajusta para ser responsive*/
+  cursor: default;
+  transition: all 400ms ease; /*es la transición de la tarjeta cuando se coloca el cursor sobre ella*/
+  }
+
+.tarjeta:hover{
+    box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+
+}
+
+.tarjeta img{ /*código de la imagen*/
+    
+    display:block; /*para que la imagen sea manipulable al momento de que la tarjeta se modifique(responsive)*/
+    width: 100%; /*para que la imagen se ajuste al ancho de la tarjeta en ese porcentaje*/ 
+    border-radius: 8px 8px 0 0; 
+
+}
+
+@media (min-width: 1020px) {
+    .container{
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px
+    }
+    .tarjeta{
+        margin:10;
+        display:flex;
+        flex-direction:column;
+        flex-grow: 1px;
+    }
+}
+
+h2 {
+    background-color: rgba(246, 136, 73, 0.3);
+    color: rgb(220, 217, 214);
+    display:block;
+    text-align: center;
+    padding: 7px;
+    margin-top: 1px;
+    border-radius: 8px;
+    
+}
+h3 {
+    
+    color: #f7f7e9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 19px;
+}
+
+h4 {
+    
+    color: #d3d3ce;
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 17px;
+    position: relative;
+    
+}
+
+
+h3, h4 {
+    margin: 0px; /* Elimina el margen alrededor de los elementos h2 y h4 */
+    display: inline; /* Hace que los elementos h2 y h4 se muestren en la misma línea */
+}
+dt, dd {
+    margin: 0; /* Elimina el margen alrededor de los elementos dt y dd */
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    /* Hace que los elementos dt y dd se muestren en la misma línea */
+}
+
+button[data-testid="button-clear"]{
+  background: rgb(150,87,61, 0.3);
+  border:8px solid rgba(150,87,61, 0.3);
+  color:rgb(241, 217, 217);
+  position: relative;
+  padding: 9 px;
+  width: 150px;
+  text-align: center;
+}
+
+/*.tarjeta img {
+    width: 320px; /* Tamaño fijo en píxeles */
+    /*height: 285px;
+    border-radius: 5%;
+    display: block;
+    text-align: center;
+*/
+
+select {
+    display:flexbox;
+    color:rgb(241, 217, 217);
+    background-color: rgb(150, 87, 61, 0.4);
+    border-color: rgb(150,87,61);
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+
+label {
+    color:rgb(241, 217, 217);
+}
+footer {
+    display:flexbox;
+    color:black;
+    background-color: rgba(150, 139, 111, 0.3);
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+
+ul {
+    display:flexbox;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    text-align: center;
+}

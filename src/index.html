@@ -3,9 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
-  <body>
-    <script src="main.js" type="module"></script>
+
+  <header>
+    <h1>PLANTAS MEDICINALES</h1>
+  </header>
+
+  <body> 
+    <label for="clasificacion">Selecciona una Clasificación</label> <!--cambiar la estructura a la que pide el readme-->
+    <select name="clasificacion" data-testid="select-filter" id="clasificacion">
+      <option value="Todos los productos">Todos los productos</option>
+      <option value="Antiácida">Antiácida</option>
+      <option value="Antidiabética">Antidiabética</option>
+      <option value="Cardiotónica">Cardiotónica</option>
+      <option value="Emenagoga">Emenagoga</option>
+      <option value="Emética">Emética</option>
+      <option value="Emoliente">Emoliente</option>
+      <option value="Febrífuga">Febrífuga</option>
+      <option value="Fortalecedora">Fortalecedora</option>
+      <option value="Nutricional">Nutricional</option>
+    </select>
+    
+    <label for="sorting">Selecciona un Ordenamiento</label> <!--para la etiqueta, el for debe ser igual que el id-->
+    <select data-testid="select-sort" name="name" id="sorting">
+      <option value="Ordenamiento">Ordenamiento</option>
+      <option value="asc">A-Z</option> 
+      <option value="desc">Z-A</option>
+    </select>
+    
+  <button data-testid="button-clear">Limpiar</button>
+
+  <div id="root"></div>  <!--en este div se van a crear los elementos HTML desde el archivo main-->
+  
+  <script src="main.js" type="module"></script>
+
+  <footer name="end-page"></footer>
   </body>
 </html>

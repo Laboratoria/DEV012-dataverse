@@ -1,378 +1,458 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "planta":"Copalchi",
+    "id":"1",
+    "name": "Copalchi",
+    "nombreCientifico": "Croton ciliatoglandulifer",
+    "clasificacion": "Antidiabética",
+    "shortDescription": "Antidiabético natural",
+    "description": "El Copalchi es una planta endémica de México conocida por sus propiedades Antidiabéticas. Sus hojas se utilizan en infusiones tradicionales para ayudar a controlar los niveles de azúcar en la sangre. También se ha empleado en el tratamiento de problemas gastrointestinales. Sus compuestos activos pueden contribuir a la regulación de la glucosa en pacientes con diabetes.",
+    "imageUrl": "./images/copachi.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Sistema endocrino",
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Sonora",
+      "precioKgMxn": 260.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "imageSource": "./images/copachi.jpg"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "planta": "Nopal",
+    "id": "2",
+    "name": "Nopal",
+    "nombreCientifico": "Opuntia ficus-indica",
+    "clasificacion": "Antidiabética",
+    "shortDescription": "Superalimento mexicano",
+    "description": "El Nopal es un cactus endémico de México y es considerado un superalimento. Sus pads son ricos en fibras y antioxidantes, y se ha utilizado tradicionalmente para controlar los niveles de azúcar en la sangre y mejorar la salud digestiva. Además, se cree que tiene propiedades antiinflamatorias y puede ayudar en la gestión de la diabetes.",
+    "imageUrl": "./images/2.nopal.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Zacatecas",
+      "precioKgMxn": 49.90
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "imageSource": "/src/images/2.nopal.jpg"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "planta": "Yacon",
+    "id": "3",
+    "name": "Yacon",
+    "nombreCientifico": "Smallanthus sonchifolius",
+    "clasificacion": "Antidiabética",
+    "shortDescription": "Endulzante natural y regulador glucémico",
+    "description": "El Yacon es una planta endémica de México conocida por sus raíces dulces y bajas en calorías. Además de ser un endulzante natural, se ha estudiado por sus posibles efectos en la regulación de la glucosa en la sangre y la pérdida de peso. Sus fructooligosacáridos pueden beneficiar a las personas con diabetes y promover la salud digestiva.",
+    "imageUrl": "./images/3.yacon.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Antidiabética",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 1700.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "imageSource": "/src/images/3.yacon.jpg"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "planta": "Tlanchalagua",
+    "id": "4",
+    "name": "Tlanchalagua",
+    "nombreCientifico": "Gochnatia hypoleuca",
+    "clasificacion": "Emenagoga",
+    "shortDescription": "Herbolaria tradicional mexicana",
+    "description": "La Tlanchalagua es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado para aliviar afecciones gastrointestinales y su capacidad para ayudar en la digestión. Sus propiedades medicinales la hacen valiosa en la medicina tradicional mexicana.",
+    "imageUrl": "./images/4.tlanchalagua.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "imageSource": "/src/images/3.yacon.jpg"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "planta": "Damiana",
+    "id": "5",
+    "name": "Damiana",
+    "nombreCientifico": "Turnera diffusa",
+    "clasificacion": "Emenagoga",
+    "shortDescription": "Estimulante y afrodisíaco",
+    "description": "La Damiana es una planta endémica de México conocida por sus propiedades afrodisíacas y estimulantes. Se ha utilizado para aumentar la energía y mejorar la función sexual. Además, se cree que puede tener beneficios para el sistema nervioso.",
+    "imageUrl": "./images/5.turneraDiffusa.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "organoBeneficiado": "Sistema nervioso",
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Morelos",
+      "precioKgMxn": 640.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "imageSource": "/src/images/5.turneraDiffusa.jpg"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "planta": "Ruda de monte",
+    "id": "6",
+    "name": "Ruda de monte",
+    "nombreCientifico": "Ruta chalepensis",
+    "clasificacion": "Emenagoga",
+    "shortDescription": "Planta para el alivio de problemas menstruales",
+    "description": "La Ruda de monte es una planta endémica de México utilizada tradicionalmente para tratar trastornos menstruales y problemas digestivos. Sus propiedades medicinales la hacen valiosa en la medicina tradicional mexicana, especialmente en el alivio de síntomas menstruales como cólicos y irregularidades.",
+    "imageUrl": "./images/6.Ruta chalepensis.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "organoBeneficiado": "Sistema reproductor",
+      "clasificacionPlanta": "Emenagoga",
+      "estadoProductor": "Chiapas",
+      "precioKgMxn": 160.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "imageSource": "/src/images/6.Ruta chalepensis.jpg"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "planta": "Ipecacuana",
+    "id": "7",
+    "name": "Ipecacuana",
+    "nombreCientifico": "Psychotria ipecacuanha",
+    "clasificacion": "Emética",
+    "shortDescription": "Inductor del vómito natural",
+    "description": "La Ipecacuana es una planta endémica de México que se ha empleado tradicionalmente como Emética, es decir, para inducir el vómito. Sus raíces contienen compuestos que provocan el reflejo de vómito y se han utilizado en la medicina tradicional para tratar intoxicaciones y envenenamientos.",
+    "imageUrl": "./images/7.Psychotria ipecacuanha.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Emética",
+      "estadoProductor": "Veracruz",
+      "precioKgMxn": 550.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "imageSource": "/src/images/7.Psychotria ipecacuanhan.jpg"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "planta": "Tequesquite",
+    "id": "8",
+    "name": "Tequesquite",
+    "nombreCientifico": "Datisca glomerata",
+    "clasificacion": "Emética",
+    "shortDescription": "Planta tradicional en la herbolaria mexicana",
+    "description": "El Tequesquite es una planta endémica de México con un uso tradicional en la herbolaria mexicana. Se ha empleado como emético y para tratar problemas gastrointestinales. Sus propiedades medicinales lo hacen valiosa en la medicina tradicional mexicana.",
+    "imageUrl": "./images/8.Datisca glomerata.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Emética",
+      "estadoProductor": "Chihuahua",
+      "precioKgMxn": 160.00
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "imageSource": "/src/images/8.Datisca glomerata.jpg"
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "planta": "Anacahuite",
+    "id": "9",
+    "name": "Anacahuite",
+    "nombreCientifico": "Cordia boissieri",
+    "clasificacion": "Febrífuga",
+    "shortDescription": "Antifebril y antioxidante natural",
+    "description": "El Anacahuite es un árbol endémico de México conocido por sus propiedades antifebriles y antioxidantes. Sus hojas y corteza se han empleado en la medicina tradicional para reducir la fiebre y aliviar afecciones respiratorias. Además, se cree que tiene propiedades antiinflamatorias.",
+    "imageUrl": "./images/9.Cordia boissieri.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "organoBeneficiado": "Sistema respiratorio",
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Nuevo León",
+      "precioKgMxn": 499.00
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "imageSource": "/src/images/9.Cordia boissieri.jpg"
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "planta": "Chicalote",
+    "id": "10",
+    "name": "Chicalote",
+    "nombreCientifico": "Argemone mexicana",
+    "clasificacion": "Febrífuga",
+    "shortDescription": "Analgésico y antiinflamatorio natural",
+    "description": "El Chicalote es una planta endémica de México conocida por sus propiedades analgésicas y antiinflamatorias. Sus semillas y aceite se utilizan para aliviar dolores de cabeza y problemas de la piel. Además, se ha empleado en la medicina tradicional mexicana para tratar problemas respiratorios.",
+    "imageUrl": "./images/10.Argemone mexicana.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Sistema nervioso",
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Guerrero",
+      "precioKgMxn": 358.00
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "imageSource": "/src/images/10.Argemone mexicana.jpg"
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "planta": "Palo de Agua",
+    "id": "11",
+    "name": "Palo de Agua",
+    "nombreCientifico": "Nolina recurvata",
+    "clasificacion": "Antiácida",
+    "shortDescription": "Planta con propiedades digestivas",
+    "description": "El Palo de Agua es una planta endémica de México que se ha utilizado en la medicina tradicional para tratar problemas digestivos y afecciones de la piel. Sus propiedades medicinales pueden ayudar a aliviar la acidez estomacal y las irritaciones dérmicas.",
+    "imageUrl": "./images/11.Nolina recurvata.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Yucatán",
+      "precioKgMxn": 452.00
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "imageSource": "/src/images/11.Nolina recurvata.jpg"
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "planta": "Salvia",
+    "id": "12",
+    "name": "Salvia",
+    "nombreCientifico": "Salvia mexicana",
+    "clasificacion": "Antiácida",
+    "shortDescription": "Planta con propiedades digestivas",
+    "description": "La Salvia es una planta endémica de México que se ha utilizado en la medicina tradicional para aliviar problemas gastrointestinales y como agente antiácido. Sus hojas contienen compuestos beneficiosos para la digestión y el alivio de la acidez estomacal.",
+    "imageUrl": "./images/12.Salvia mexicana.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 312.00
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "imageSource": "/src/images/12.Salvia mexicana.jpg"
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "planta": "Cuachalalate",
+    "id": "13",
+    "name": "Cuachalalate",
+    "nombreCientifico": "Amphipterygium adstringens",
+    "clasificacion": "Astringente",
+    "shortDescription": "Planta para problemas gastrointestinales",
+    "description": "El Cuachalalate es una planta endémica de México con propiedades astringentes. Se ha utilizado tradicionalmente para tratar problemas gastrointestinales y afecciones de la piel. Sus propiedades medicinales pueden contribuir a reducir la diarrea y aliviar irritaciones dérmicas.",
+    "imageUrl": "./images/13. Amphipterygium adstringens.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Astringente",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 652.00
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "imageSource": "./images/13. Amphipterygium adstringens.jpg"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "planta": "Mozote",
+    "id": "14",
+    "name": "Mozote",
+    "nombreCientifico": "Comarostaphylis polifolia",
+    "clasificacion": "Emoliente",
+    "shortDescription": "Planta medicinal para heridas y afecciones de la piel",
+    "description": "El Mozote es una planta endémica de México que se ha empleado en la medicina tradicional para tratar heridas y como antiséptico. Sus propiedades cicatrizantes y antimicrobianas lo hacen valiosa en el tratamiento de afecciones de la piel.",
+    "imageUrl": "./images/14. Comarostaphylis polifolia.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "organoBeneficiado": "Piel",
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Jalisco",
+      "precioKgMxn": 750.00
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "imageSource": "./images/14. Comarostaphylis polifolia.jpg"
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "planta": "Té de Limón",
+    "id": "15",
+    "name": "Té de Limón",
+    "nombreCientifico": "Aloysia citriodora",
+    "clasificacion": "Emoliente",
+    "shortDescription": "Infusión relajante y digestiva",
+    "description": "El Té de Limón es una planta endémica de México que se utiliza en infusiones para estimular el sistema nervioso y mejorar la digestión. Sus propiedades relajantes y digestivas pueden ayudar a aliviar el estrés y malestares gastrointestinales.",
+    "imageUrl": "./images/15. Aloysia citriodora.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "organoBeneficiado": "Sistema nervioso",
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Michoacán",
+      "precioKgMxn": 280.00
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "imageSource": "/src/images/15. Aloysia citriodora.jpg"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "planta": "Chicalotl",
+    "id": "16",
+    "name": "Chicalotl",
+    "nombreCientifico": "Gnaphalium spp.",
+    "clasificacion":"Antiácida",
+    "shortDescription": "Planta para problemas gastrointestinales",
+    "description": "El Chicalotl es una planta endémica de México que se ha empleado en la medicina tradicional para aliviar problemas gastrointestinales. Sus propiedades medicinales pueden contribuir a reducir la acidez estomacal y aliviar malestares digestivos.",
+    "imageUrl": "./images/16. Gnaphalium spp.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Tamaulipas",
+      "precioKgMxn": 580.00
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "imageSource": "/src/images/16. Gnaphalium spp.jpg"
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "planta": "Palo Azul",
+    "id": "17",
+    "name": "Palo Azul",
+    "nombreCientifico": "Eysenhardtia polystachya",
+    "clasificacion": "Cardiotónica",
+    "shortDescription": "Planta antiinflamatoria y antioxidante",
+    "description": "El Palo Azul es una planta endémica de México conocida por sus propiedades antiinflamatorias y antioxidantes. Sus hojas se han utilizado en infusiones tradicionales para aliviar problemas de salud y reducir la inflamación. Además, se cree que tiene propiedades antioxidantes beneficiosas para el cuerpo.",
+    "imageUrl": "./images/17. Eysenhardtia polystachya.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "organoBeneficiado": "Sistema circulatorio",
+      "clasificacionPlanta": "Cardiotónica",
+      "estadoProductor": "Sinaloa",
+      "precioKgMxn": 345.00
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "imageSource": "/src/images/17. Eysenhardtia polystachya.jpg"
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "planta": "Chia",
+    "id": "18",
+    "name": "Chía",
+    "nombreCientifico": "Salvia hispanica",
+    "clasificacion": "Cardiotónica",
+    "shortDescription": "Fuente de ácidos grasos omega-3",
+    "description": "La Chía es una planta endémica de México conocida por su alto contenido de ácidos grasos omega-3 y sus propiedades nutricionales. Las semillas de chía se utilizan como suplemento alimenticio para mejorar la salud del corazón y la función cerebral. Además, es una fuente de proteínas y antioxidantes beneficiosos para el cuerpo.",
+    "imageUrl": "./images/18. Salvia hispanica.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "organoBeneficiado": "Sistema cardiovascular",
+      "clasificacionPlanta": "Cardiotónica",
+      "estadoProductor": "Guerrero",
+      "precioKgMxn": 800.00
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "imageSource": "/src/images/18. Salvia hispanica.jpg"
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "planta": "Borraja",
+    "id": "19",
+    "name": "Borraja",
+    "nombreCientifico": "Borago officinalis",
+    "clasificacion": "Emoliente",
+    "shortDescription": "Planta para problemas de la piel",
+    "description": "La Borraja es una planta endémica de México utilizada tradicionalmente para aliviar problemas de la piel y afecciones respiratorias. Sus propiedades Emolientes hacen que sea valiosa en el tratamiento de irritaciones cutáneas y condiciones respiratorias leves.",
+    "imageUrl": "./images/19. Borago officinalis.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "organoBeneficiado": "Piel",
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Jalisco",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "imageSource": "/src/images/19. Borago officinalis.jpg"
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "planta": "Tepezcohuite",
+    "id": "20",
+    "name": "Tepezcohuite",
+    "nombreCientifico": "Mimosa tenuiflora",
+    "clasificacion": "Emoliente",
+    "shortDescription": "Planta cicatrizante y regeneradora de la piel",
+    "description": "El Tepezcohuite es una planta endémica de México conocida por sus propiedades cicatrizantes y regeneradoras de la piel. Se ha utilizado en el tratamiento de heridas, quemaduras y afecciones dermatológicas. Sus compuestos beneficiosos promueven la curación y la salud de la piel.",
+    "imageUrl": "./images/20. Mimosa tenuiflora.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "organoBeneficiado": "Piel",
+      "clasificacionPlanta": "Emoliente",
+      "estadoProductor": "Oaxaca",
+      "precioKgMxn": 3200.00
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "imageSource": "/src/images/20. Mimosa tenuiflora.jpg"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "planta": "Cempoalxóchitl",
+    "id": "21",
+    "name": "Cempoalxóchitl",
+    "nombreCientifico": "Tagetes erecta",
+    "clasificacion": "Febrífuga",
+    "shortDescription": "Planta tradicional en la medicina azteca",
+    "description": "El Cempoalxóchitl es una planta endémica de México con un largo historial en la medicina azteca. Se ha empleado para tratar afecciones respiratorias y se le atribuyen propiedades medicinales como expectorante. Sus flores amarillas se han utilizado en infusiones y ungüentos.",
+    "imageUrl": "./images/21. Tagetes erecta.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "organoBeneficiado": "Sistema respiratorio",
+      "clasificacionPlanta": "Febrífuga",
+      "estadoProductor": "Tlaxcala",
+      "precioKgMxn": 3100.00
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "imageSource": "/src/images/21. Tagetes erecta.jpg"
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "planta": "Cola de Caballo",
+    "id": "22",
+    "name": "Cola de Caballo",
+    "nombreCientifico": "Equisetum giganteum",
+    "clasificacion": "Fortalecedora",
+    "shortDescription": "Planta diurética y fortalecedora de huesos",
+    "description": "La Cola de Caballo es una planta endémica de México conocida por sus propiedades diuréticas y su capacidad para fortalecer huesos y tejidos. Se ha empleado en la medicina tradicional para promover la salud del sistema urinario y como tónico para las uñas, cabello y huesos.",
+    "imageUrl": "./images/22. Equisetum giganteum.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "organoBeneficiado": "Sistema urinario",
+      "clasificacionPlanta": "Fortalecedora",
+      "estadoProductor": "Hidalgo",
+      "precioKgMxn": 480.00
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "imageSource": "./images/22. Equisetum giganteum.jpg"
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "planta": "Zapote blanco",
+    "id": "23",
+    "name": "Zapote blanco",
+    "nombreCientifico": "Casimiroa edulis",
+    "clasificacion": "Nutricional",
+    "shortDescription": "Fruta tradicional en la dieta mexicana",
+    "description": "El Zapote blanco es una fruta endémica de México que ha sido parte de la dieta tradicional mexicana durante siglos. Es rico en nutrientes y se ha empleado en la medicina tradicional para mejorar la digestión y la salud del sistema inmunológico. Además, se cree que tiene propiedades antioxidantes.",
+    "imageUrl": "./images/23. Casimiroa edulis.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "organoBeneficiado": "Sistema digestivo",
+      "clasificacionPlanta": "Nutricional",
+      "estadoProductor": "Puebla",
+      "precioKgMxn": 150.00
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "imageSource": "./images/23. Casimiroa edulis.jpg"
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "planta": "Manzanilla",
+    "id": "24",
+    "name": "Manzanilla",
+    "nombreCientifico": "Matricaria chamomilla",
+    "clasificacion": "Antiácida",
+    "shortDescription": "Hierba para aliviar el estrés y problemas digestivos",
+    "description": "La Manzanilla es una planta endémica de México conocida por sus propiedades relajantes y digestivas. Sus flores se utilizan en infusiones tradicionales para aliviar el estrés, reducir la ansiedad y promover un sueño reparador. Además, se ha empleado para tratar problemas gastrointestinales, como el malestar estomacal y la indigestión, gracias a sus propiedades antiinflamatorias y calmantes. Al probar la manzanilla, experimentarás sus efectos relajantes. Además de ser un relajante natural, puede aliviar el estrés y fomentar el sueño. Perfecta para disfrutar del descanso.",
+    "imageUrl": "./images/24. manzanilla.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "organoBeneficiado": "Sistema nervioso y digestivo",
+      "clasificacionPlanta": "Antiácida",
+      "estadoProductor": "Tlaxcala",
+      "precioKgMxn": 180.00
     },
     "extraInfo": {
-      "imageSource": "https://www.esa.int/ESA_Multimedia/Images/2020/07/Artistic_illustration_of_Rosalind_Franklin"
+      "imageSource": "./images/24. manzanilla.jpg"
     }
-  }
+  } 
 ];
